@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PluginInfraServices</name>
+    </assembly>
+    <members>
+        <member name="T:PluginInfraServices.LicenseInformation">
+            <summary>
+            Information about an individual software option.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LicenseInformation.Option">
+            <summary>
+            Identifies a well-known MR software option.
+            </summary>
+            <remarks>
+            MR software defines options in the form AWOPT_*, for example, AWOPT_MRCAR and AWOPT_MR_RT.
+            </remarks>
+        </member>
+        <member name="F:PluginInfraServices.LicenseInformation.ValidLicenseAvailable">
+            <summary>
+            True if the license for the option is available and not expired.
+            </summary>
+            <remarks>
+            When this flag is set, the feature can be used.
+            </remarks>
+        </member>
+        <member name="T:PluginInfraServices.QueryLicensesRequestMessage">
+            <summary>
+            Queries the licenses for provided software options.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryLicensesRequestMessage.RequestToken">
+            <summary>
+            Identifies the request.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryLicensesRequestMessage.Options">
+            <summary>
+            Software options, whose license validity needs to be checked.
+            </summary>
+            <remarks>
+            MR software defines options in the form AWOPT_*, for example, AWOPT_MRCAR and AWOPT_MR_RT.
+            </remarks>
+        </member>
+        <member name="T:PluginInfraServices.QueryLicensesResponseMessage">
+            <summary>
+            Returns the query information about the sofware options.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryLicensesResponseMessage.RequestToken">
+            <summary>
+            Unique identifier for the original request.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryLicensesResponseMessage.Licenses">
+            <summary>
+            Information about the license status for software options provided in the original request.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.LoggingSeverityType">
+            <summary>
+            Severity class for a log entry.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingSeverityType.LoggingSeverityTypeError">
+            <summary>
+            Errors contain information about a failure of the system that leads directly to loss of performance or functionality.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingSeverityType.LoggingSeverityTypeFatal">
+            <summary>
+            Fatal errors cause system downtime or a service to go down.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingSeverityType.LoggingSeverityTypeInformation">
+            <summary>
+            Information entries contain information about the status and usage of the system.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingSeverityType.LoggingSeverityTypeWarning">
+            <summary>
+            Warnings contain information about a failure of the system that may lead to loss of performance or functionality.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.LoggingType">
+            <summary>
+            Logging entry purpose identifier types.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingType.UnknownLoggingType">
+            <summary>
+            Invalid, unknown logging purpose.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingType.LoggingTypeDevelopment">
+            <summary>
+            Development logging is meant for log entries that help the developer to understand the internal state of the software.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingType.LoggingTypeService">
+            <summary>
+            Service logging is meant for log entries that support a field service engineer in diagnosis and repair of the system.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LoggingType.LoggingTypeTrace">
+            <summary>
+            Trace logging is meant for deducing software problems during system development.
+            </summary>
+            <remarks>
+            By default, trace logging is not available at field.
+            </remarks>
+        </member>
+        <member name="F:PluginInfraServices.LoggingType.LoggingTypeUtilization">
+            <summary>
+            Utilization logging is meant for extracting operational profiles and actual usage from the field.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.LogEntry">
+            <summary>
+            Data record for a single loggable event.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LogEntry.OriginatorId">
+            <summary>
+            PII originator id.
+            </summary>
+            <remarks>
+            A number reserved from a Philips wide originator-id numberspace.
+            E.g., range 198000-199999 has been reserved for MR-Therapy applications.
+            When the OriginatorId is concatenated with the event id (conventionally OriginatorId + "_" + EventId),
+            the resulting id is called a LogMessageId, which is a unique identifier of the log message definition,
+            the semantics of which should never change.
+            The static semantics are needed when external, automated tools interpret the entries.
+            </remarks>
+        </member>
+        <member name="F:PluginInfraServices.LogEntry.EventId">
+            <summary>
+            Unique identifier of the log message definition when combined with originator id.
+            </summary>
+            <remarks>
+            The same event id can occur also in other originator ids, but the combination
+            of the originator id and event id should be unique.
+            Maximum length 100-OriginatorId.Length-1 (requirement from Common Data File format v2.0 + UX00085-01 logging guidelines).
+            -1 comes from conventional concatenation with an underscore.
+            </remarks>
+        </member>
+        <member name="F:PluginInfraServices.LogEntry.TimeStamp">
+            <summary>
+            Clunks since 12:00 AM January 1, year 1 A.D. in the proleptic Gregorian Calendar.
+            </summary>
+            <remarks>
+            Measured using the system clock on the hosting computer that recorded the occurrence of the event.
+            </remarks>
+        </member>
+        <member name="F:PluginInfraServices.LogEntry.Description">
+            <summary>
+            Description of the event that occurred.
+            </summary>
+            <remarks>
+            Only the variable part of the Description adds to the semantics; the invariable part is coupled one-to-one to the LogMessageId. Does not contain parametrized data.
+            Maximum length 1024 (requirement from Common Data File format v2.0).
+            </remarks>
+        </member>
+        <member name="F:PluginInfraServices.LogEntry.AdditionalInfo">
+            <summary>
+            Additional information about the event that can be parametrized.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LogEntry.Severity">
+            <summary>
+            Severity of the log entry.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LogEntry.Type">
+            <summary>
+            Log entry usage type.
+            </summary>
+            <remarks>
+            Describes the intended use of the entry.
+            </remarks>
+        </member>
+        <member name="T:PluginInfraServices.PatientIdentification">
+            <summary>
+            DICOM patient identification with name+id combination.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.PatientIdentification.PatientId">
+            <summary>
+            DICOM patient identification with id.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.PatientIdentification.PatientName">
+            <summary>
+            DICOM patient identification with name.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.AuditTrailActionType">
+            <summary>
+            Object Actions for audit trail entries.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditTrailActionType.UnknownLoggingAuditTrailActionType">
+            <summary>
+            Unknown action.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditTrailActionType.AuditTrailActionTypeCreate">
+            <summary>
+            Instance created.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditTrailActionType.AuditTrailActionTypeModify">
+            <summary>
+            Instance modified.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditTrailActionType.AuditTrailActionTypeAccess">
+            <summary>
+            Instance accessed.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditTrailActionType.AuditTrailActionTypeDelete">
+            <summary>
+            Instance deleted.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.InstancesSentEntry">
+            <summary>
+            Audit trail log entry for transmitted patient data (HIPAA AUDITTRAIL INSTANCES_SENT).
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.Suid">
+            <summary>
+            DICOM Study Instance UID.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.Cuid">
+            <summary>
+            DICOM Class Instance UID.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.InstancesSent">
+            <summary>
+            The number of DICOM SOP instances sent.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.ObjectAction">
+            <summary>
+            Action performed on the instances.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.IPAddress">
+            <summary>
+            IP address where the instances were sent to.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.ApplicationEntityTitle">
+            <summary>
+            AETitle of the receiver of our transmission.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.LocalUser">
+            <summary>
+            Identification of the local user.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.InstancesSentEntry.Patient">
+            <summary>
+            Identification for the patient whose data was sent.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.AuditLogEntryRequestMessage">
+            <summary>
+            Request to file an audit trail log entry
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditLogEntryRequestMessage.RequestToken">
+            <summary>
+            Identifies the request.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditLogEntryRequestMessage.InstancesSent">
+            <summary>
+            Instances-sent log entry.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.LogEntriesRequestMessage">
+            <summary>
+            Log the provided entries in one, synchronous operation.
+            </summary>
+            <remarks>
+            Log entries can be accrued to reduce chatter between communicating endpoints.
+            </remarks>
+        </member>
+        <member name="F:PluginInfraServices.LogEntriesRequestMessage.RequestToken">
+            <summary>
+            Identifies the request.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LogEntriesRequestMessage.EntriesToBeLogged">
+            <summary>
+            Accrued log entries to be logged.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.AuditLogEntryResponseMessage">
+            <summary>
+            Acknowledging response to the logging of audit trail entries.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.AuditLogEntryResponseMessage.RequestToken">
+            <summary>
+            Identifies the original request.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.LogEntriesResponseMessage">
+            <summary>
+            Confirmation message, which indicates that the requested log entries have been written to the log.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.LogEntriesResponseMessage.RequestToken">
+            <summary>
+            Identifies the original request.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.PluginInfraModel">
+            <summary>
+            Datamodel for the plugin's infrastructural services.
+            </summary>
+            <remarks>
+            Plugin's Infrastructure services needs to support multiple interfaces from a single TCP port,
+            therefore an union of interface namespaces is needed to create a common model
+            to ensure that the ids for messages are unique within the union
+            (and not just within a namespace).
+            </remarks>
+        </member>
+        <member name="M:PluginInfraServices.PluginInfraModel.GetTypes">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:PluginInfraServices.PluginInfraModel.RootNamespace">
+            <summary>
+            Do not limit types to a single namespace - use the explicitly generated type list (see below)
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.QueryVersionRequestMessage">
+            <summary>
+            Query version information from MR software.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryVersionRequestMessage.RequestToken">
+            <summary>
+            Identifies the request.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.FaultResponseMessage">
+            <summary>
+            Response to an invalid request.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.FaultResponseMessage.RequestToken">
+            <summary>
+            Identifies the invalid request.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.FaultResponseMessage.Description">
+            <summary>
+            A non-localized failure description for development purposes.
+            </summary>
+        </member>
+        <member name="T:PluginInfraServices.QueryVersionResponseMessage">
+            <summary>
+            Return the version information to a version information query.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryVersionResponseMessage.RequestToken">
+            <summary>
+            Unique identifier for the original request.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryVersionResponseMessage.Version">
+            <summary>
+            Product name of the software, e.g., R5.1.7L2
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryVersionResponseMessage.SystemType">
+            <summary>
+            MR scanner system type, e.g., WA15 or T30.
+            </summary>
+        </member>
+        <member name="F:PluginInfraServices.QueryVersionResponseMessage.ProductModel">
+            <summary>
+            MR scanner product model, e.g., "Achieva dStream" or "Ingenia".
+            </summary>
+        </member>
+    </members>
+</doc>

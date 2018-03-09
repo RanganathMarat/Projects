@@ -1,0 +1,32 @@
+1) Run solution => Exception requesting ModulesCatalog
+2) Create new class that implemens IModule in Shell project.
+public class ModuleA : IModule
+3) Add Module to module's Catalog.
+ protected override IModuleCatalog GetModuleCatalog()
+        {
+            return new ModuleCatalog().AddModule(typeof(ModuleA));
+        }
+4) Run solution => No exception.
+
+To show that is working in a simple way
+=======================================
+5) Add a ContentControl to the Shell and mark it as a Region ("MainRegion"). (Low relevance as it has not been explained yet).
+xmlns:regions="clr-namespace:Microsoft.Practices.Composite.Presentation.Regions;assembly=Microsoft.Practices.Composite.Presentation"
+<ContentControl regions:RegionManager.RegionName="MainRegion"/>
+6) Add a new TextBlock control to the region in the Shell from the module's Initialize method.
+public class ModuleA : IModule
+    {
+        private IRegionManager regionManager;
+
+        public ModuleA(IRegionManager regionManager)
+        {
+            this.regionManager = regionManager;
+        }
+        
+        public void Initialize()
+        {
+            TextBlock textBlock = new TextBlock();
+            textBlock.Text = "I'm in the Shell";
+            this.regionManager.Regions["MainRegion"].Add(textBlock);
+        }
+    }

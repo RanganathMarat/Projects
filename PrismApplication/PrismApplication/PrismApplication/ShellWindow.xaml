@@ -1,0 +1,56 @@
+﻿<Window x:Class="PrismApplication.ShellWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:regions="http://prismlibrary.com/"
+        xmlns:pt="http://schemas.philips.com/platform/presentation"
+        xmlns:interfaces="clr-namespace:PrismApplication.Interfaces;assembly=Interfaces_cs"
+        Title="MainWindow" Height="600" Width="525">
+    <Grid Style="{DynamicResource GridStyle}" Cursor="{x:Static pt:ExperienceIdentityCursors.DefaultCursor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60px"></RowDefinition>
+            <RowDefinition Height="40px"></RowDefinition>
+            <RowDefinition Height="120px"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!-- Patient Header Region -->
+        <Border Grid.Row="0">
+            <ContentControl x:Name="PatientHeaderRegion"
+                            regions:RegionManager.RegionName="{x:Static interfaces:RegionNames.PatientHeaderRegion}"
+                            VerticalContentAlignment="Stretch"
+                            HorizontalContentAlignment="Stretch" />
+        </Border>
+        <!-- Task Header Region -->
+        <Grid Grid.Row="1" Background="{DynamicResource PanelSubHeaderBrush}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200px"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0">
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Text="Exam Info" Margin="15,0"
+                           Style="{DynamicResource TextBlockLabelStyle}" FontSize="14" FontWeight="Bold"></TextBlock>
+            </Border>
+            <Border Grid.Column="1">
+                <ContentControl x:Name="TaskHeaderRegion"
+                            regions:RegionManager.RegionName="{x:Static interfaces:RegionNames.TaskHeaderRegion}"
+                            VerticalContentAlignment="Stretch"
+                            HorizontalContentAlignment="Stretch" />
+            </Border>
+        </Grid>
+        
+        <!-- Scanlist Region -->
+        <Border Grid.Row="2"
+                Background="LightGray">
+            <ContentControl x:Name="ScanlistRegion"
+                            regions:RegionManager.RegionName="{x:Static interfaces:RegionNames.ScanlistRegion}"
+                            VerticalContentAlignment="Stretch"
+                            HorizontalContentAlignment="Stretch" />
+        </Border>
+        <!-- Task Content Region -->
+        <Border Grid.Row="3">
+            <ContentControl x:Name="TaskContainerRegion"
+                            regions:RegionManager.RegionName="{x:Static interfaces:RegionNames.TaskContainerRegion}"
+                            VerticalContentAlignment="Stretch"
+                            HorizontalContentAlignment="Stretch" />
+        </Border>
+    </Grid>
+</Window>

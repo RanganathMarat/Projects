@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="appSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" restartOnExternalChanges="false" requirePermission="false"/>
+    <section name="MessagingConfigurationSection" type="Common.Messaging.MessagingConfigurationSection, Common.Messaging"/>
+  </configSections>
+  <appSettings/>
+  <MessagingConfigurationSection>
+    <MessagingEndpoints>
+      <add name="InMessage" mqtype="RabbitMQ" topology="Basic" queue="Orchestra_Analize_In"/>
+    </MessagingEndpoints>
+  </MessagingConfigurationSection>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/></startup></configuration>

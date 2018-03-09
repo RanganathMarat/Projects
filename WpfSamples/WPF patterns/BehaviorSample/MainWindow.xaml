@@ -1,0 +1,19 @@
+﻿<Window x:Class="BehaviorSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:this="clr-namespace:BehaviorSample"
+        Title="MainWindow"
+        Height="350"
+        Width="525">
+    <Window.Resources>
+        <this:ChangeOpacityOnMouseOverBehavior x:Key="TheChangeColorBehavior" />
+    </Window.Resources>
+    <Grid>
+        <Grid HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              Height="30"
+              Width="100"
+              Background="Green"
+              this:AttachedProperties.TheBehavior="{StaticResource TheChangeColorBehavior}" />
+    </Grid>
+</Window>

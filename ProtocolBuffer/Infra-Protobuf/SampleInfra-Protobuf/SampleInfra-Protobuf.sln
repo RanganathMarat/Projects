@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginInfraServices", "PluginInfraService\PluginInfraServices.csproj", "{A0A4D4DD-5108-4B80-886C-CA649EB9D343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-SampleServiceHandlers", "ServiceHandlers-Prototype\SampleServiceHandlers\Z-SampleServiceHandlers.csproj", "{972F8A3B-57A6-4B03-86B3-598274261346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-ServiceHandler", "ServiceHandlers-Prototype\Test-ServiceHandler\Test-ServiceHandler.csproj", "{D804B9A3-321E-45A6-91D3-72EBD5D5A3FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6356250C-49FF-42B0-9860-A0FF14090366} = {6356250C-49FF-42B0-9860-A0FF14090366}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z-ZMQLibrary", "ZeroMq\ZMQLibrary\Z-ZMQLibrary.csproj", "{6356250C-49FF-42B0-9860-A0FF14090366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A4D4DD-5108-4B80-886C-CA649EB9D343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A4D4DD-5108-4B80-886C-CA649EB9D343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A4D4DD-5108-4B80-886C-CA649EB9D343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A4D4DD-5108-4B80-886C-CA649EB9D343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972F8A3B-57A6-4B03-86B3-598274261346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972F8A3B-57A6-4B03-86B3-598274261346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972F8A3B-57A6-4B03-86B3-598274261346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972F8A3B-57A6-4B03-86B3-598274261346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D804B9A3-321E-45A6-91D3-72EBD5D5A3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D804B9A3-321E-45A6-91D3-72EBD5D5A3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D804B9A3-321E-45A6-91D3-72EBD5D5A3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D804B9A3-321E-45A6-91D3-72EBD5D5A3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6356250C-49FF-42B0-9860-A0FF14090366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6356250C-49FF-42B0-9860-A0FF14090366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6356250C-49FF-42B0-9860-A0FF14090366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6356250C-49FF-42B0-9860-A0FF14090366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

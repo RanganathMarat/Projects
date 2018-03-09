@@ -1,0 +1,7 @@
+D:\Rabi\Projects\Orchestra\EquEngine\obj\Debug\EquEngine.csprojResolveAssemblyReference.cache
+D:\Rabi\Projects\Orchestra\build_output\EquEngine.exe.config
+D:\Rabi\Projects\Orchestra\build_output\EquEngine.XML
+D:\Rabi\Projects\Orchestra\build_output\EquEngine.exe
+D:\Rabi\Projects\Orchestra\build_output\EquEngine.pdb
+D:\Rabi\Projects\Orchestra\EquEngine\obj\Debug\EquEngine.exe
+D:\Rabi\Projects\Orchestra\EquEngine\obj\Debug\EquEngine.pdb

@@ -1,0 +1,11 @@
+D:\Rabi\Projects\Orchestra\build_output\ManageMethodsApp.exe.config
+D:\Rabi\Projects\Orchestra\build_output\ManageMethodsApp.XML
+D:\Rabi\Projects\Orchestra\build_output\ManageMethodsApp.exe
+D:\Rabi\Projects\Orchestra\build_output\ManageMethodsApp.pdb
+D:\Rabi\Projects\Orchestra\ManageMethods\obj\Debug\ManageMethodsApp.csprojResolveAssemblyReference.cache
+D:\Rabi\Projects\Orchestra\ManageMethods\obj\Debug\ManageMethodsApp.Methods.resources
+D:\Rabi\Projects\Orchestra\ManageMethods\obj\Debug\ManageMethodsApp.Properties.Resources.resources
+D:\Rabi\Projects\Orchestra\ManageMethods\obj\Debug\ManageMethodsApp.csproj.GenerateResource.Cache
+D:\Rabi\Projects\Orchestra\ManageMethods\obj\Debug\ManageMethodsApp.exe
+D:\Rabi\Projects\Orchestra\ManageMethods\obj\Debug\ManageMethodsApp.pdb
+D:\Rabi\Projects\Orchestra\build_output\libzmq.dll

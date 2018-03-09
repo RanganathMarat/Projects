@@ -1,0 +1,29 @@
+// MFC.idl : type library source for MFC.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (MFC.tlb).
+
+[ uuid(BF1ADE5F-83C4-463E-B595-A24DC106E033), version(1.0) ]
+library MFC
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CMFCDoc
+	
+	[ uuid(5FFAD769-A45F-4F13-974A-2A6B9CC8B2C6) ]
+	dispinterface IMFC
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CMFCDoc
+	
+	[ uuid(F8C523A0-8A64-4016-8CAE-884A4F9E5AF6) ]
+	coclass CMFCDoc
+	{
+		[default] dispinterface IMFC;
+	};
+};

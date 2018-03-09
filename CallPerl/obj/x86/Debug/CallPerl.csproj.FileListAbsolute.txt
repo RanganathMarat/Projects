@@ -1,0 +1,5 @@
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\CallPerl\bin\Debug\CallPerl.exe
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\CallPerl\bin\Debug\CallPerl.pdb
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\CallPerl\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\CallPerl\obj\x86\Debug\CallPerl.exe
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\CallPerl\obj\x86\Debug\CallPerl.pdb

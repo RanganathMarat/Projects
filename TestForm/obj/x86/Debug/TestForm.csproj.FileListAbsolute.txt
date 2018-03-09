@@ -1,0 +1,8 @@
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\obj\x86\Debug\TestForm.Properties.Resources.resources
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\bin\Debug\TestForm.exe
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\bin\Debug\TestForm.pdb
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\obj\x86\Debug\TestForm.exe
+C:\Users\ing02494\Documents\Visual Studio 2010\Projects\TestForm\obj\x86\Debug\TestForm.pdb

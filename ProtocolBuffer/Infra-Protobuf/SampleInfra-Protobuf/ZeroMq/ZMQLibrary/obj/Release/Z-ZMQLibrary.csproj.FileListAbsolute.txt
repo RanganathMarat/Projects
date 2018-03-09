@@ -1,0 +1,12 @@
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\ZMQLibrary.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\ZMQLibrary.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\AsyncIO.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\InfraProtobuf.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\NetMQ.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\protobuf-net.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\InfraProtobuf.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\NetMQ.xml
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\protobuf-net.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\bin\Release\protobuf-net.xml
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\obj\Release\ZMQLibrary.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ZeroMq\ZMQLibrary\obj\Release\ZMQLibrary.pdb

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/icons">
+        <file>icon.examcard.scan.breathhold_c.ico</file>
+        <file>icon.general.scan.breathhold_c.ico</file>
+        <file>icon.examcard.scan.sar_c_8x16.ico</file>
+        <file>general.tablemovement.png</file>
+    </qresource>
+</RCC>

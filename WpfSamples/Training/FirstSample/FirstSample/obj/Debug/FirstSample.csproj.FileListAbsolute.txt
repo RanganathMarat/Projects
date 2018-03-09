@@ -1,0 +1,14 @@
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\bin\Debug\FirstSample.exe.config
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\bin\Debug\FirstSample.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\bin\Debug\FirstSample.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\MainWindow.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\MainWindow.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\App.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample_MarkupCompile.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample.g.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample.Properties.Resources.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample.csproj.GenerateResource.Cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample_MarkupCompile.lref

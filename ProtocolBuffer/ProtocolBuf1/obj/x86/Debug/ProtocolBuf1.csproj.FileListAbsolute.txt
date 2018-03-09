@@ -1,0 +1,21 @@
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\bin\Debug\ProtocolBuf1.exe
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\bin\Debug\ProtocolBuf1.pdb
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\bin\Debug\protobuf-net.dll
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\bin\Debug\protobuf-net.pdb
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\bin\Debug\protobuf-net.xml
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\obj\x86\Debug\ProtocolBuf1.exe
+c:\users\ing02494\documents\visual studio 2010\Projects\ProtocolBuf1\ProtocolBuf1\obj\x86\Debug\ProtocolBuf1.pdb
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\obj\x86\Debug\ProtocolBuf1.exe
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\obj\x86\Debug\ProtocolBuf1.pdb
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\bin\Debug\ProtocolBuf1.exe
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\bin\Debug\ProtocolBuf1.pdb
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\bin\Debug\protobuf-net.dll
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\bin\Debug\protobuf-net.pdb
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\bin\Debug\protobuf-net.xml
+D:\Workz\Projects\ProtocolBuffer\ProtocolBuf1\obj\x86\Debug\ProtocolBuf1.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\ProtocolBuffer\ProtocolBuf1\obj\x86\Debug\ProtocolBuf1.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\ProtocolBuffer\ProtocolBuf1\bin\Debug\ProtocolBuf11.exe
+C:\~Office\Workz\Projects\ProtocolBuffer\ProtocolBuf1\bin\Debug\ProtocolBuf11.pdb
+C:\~Office\Workz\Projects\ProtocolBuffer\ProtocolBuf1\obj\x86\Debug\ProtocolBuf11.exe
+C:\~Office\Workz\Projects\ProtocolBuffer\ProtocolBuf1\obj\x86\Debug\ProtocolBuf11.pdb

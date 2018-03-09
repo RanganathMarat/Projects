@@ -1,0 +1,62 @@
+﻿Build started 5/13/2016 3:26:16 PM.
+     1>Project "C:\~Office\Workz\Projects\TestCPP\MFC\MFC.vcxproj" on node 2 (Build target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "MFC_h.h" /tlb "Debug\MFC.tlb" /robust MFC.idl 
+         Processing .\MFC.idl
+         MFC.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+         wtypesbase.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFC.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CalendarBar.cpp ChildFrm.cpp ClassView.cpp FileView.cpp MainFrm.cpp MFC.cpp MFCDoc.cpp MFCView.cpp OutputWnd.cpp PropertiesWnd.cpp ViewTree.cpp
+         ViewTree.cpp
+         PropertiesWnd.cpp
+         OutputWnd.cpp
+         MFCView.cpp
+         MFCDoc.cpp
+         MFC.cpp
+         MainFrm.cpp
+         FileView.cpp
+         ClassView.cpp
+         ChildFrm.cpp
+         CalendarBar.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\MFC.res" MFC.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\~Office\Workz\Projects\TestCPP\MFC\Debug\MFC.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\~Office\Workz\Projects\TestCPP\MFC\Debug\MFC.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\~Office\Workz\Projects\TestCPP\MFC\Debug\MFC.lib" /MACHINE:X86 Debug\MFC.res
+         Debug\CalendarBar.obj
+         Debug\ChildFrm.obj
+         Debug\ClassView.obj
+         Debug\FileView.obj
+         Debug\MainFrm.obj
+         Debug\MFC.obj
+         Debug\MFCDoc.obj
+         Debug\MFCView.obj
+         Debug\OutputWnd.obj
+         Debug\PropertiesWnd.obj
+         Debug\stdafx.obj
+         Debug\ViewTree.obj
+         MFC.vcxproj -> C:\~Office\Workz\Projects\TestCPP\MFC\Debug\MFC.exe
+       RegisterOutput:
+         "C:\~Office\Workz\Projects\TestCPP\MFC\Debug\MFC.exe" /RegServer
+     1>Done Building Project "C:\~Office\Workz\Projects\TestCPP\MFC\MFC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.52

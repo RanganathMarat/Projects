@@ -1,0 +1,17 @@
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\bin\Debug\UserControlAntiPattern.exe.config
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\bin\Debug\UserControlAntiPattern.exe
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\bin\Debug\UserControlAntiPattern.pdb
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\EditableTextAndLabelControl.baml
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\MainWindow.baml
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\EditableTextAndLabelControl.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\MainWindow.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\App.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern_MarkupCompile.cache
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern.g.resources
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern.Properties.Resources.resources
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern.csproj.GenerateResource.Cache
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern.exe
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern.pdb
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern_MarkupCompile.lref
+D:\Workz\Projects\WpfSamples\WPF patterns\~MySamples\Samples\UserControlAntiPattern\obj\Debug\UserControlAntiPattern.csprojResolveAssemblyReference.cache

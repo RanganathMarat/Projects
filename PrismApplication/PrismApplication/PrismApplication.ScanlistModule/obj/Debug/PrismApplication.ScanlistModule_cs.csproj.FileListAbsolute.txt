@@ -1,0 +1,11 @@
+E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.ScanlistModule\bin\Debug\PrismApplication.ScanlistModule_cs.dll
+E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.ScanlistModule\bin\Debug\PrismApplication.ScanlistModule_cs.pdb
+D:\VSNET\Prism\PrismApplication\PrismApplication\bin\Debug\PrismApplication.ScanlistModule_cs.dll
+D:\VSNET\Prism\PrismApplication\PrismApplication\bin\Debug\PrismApplication.ScanlistModule_cs.pdb
+D:\VSNET\Prism\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule_cs.csprojResolveAssemblyReference.cache
+D:\VSNET\Prism\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\ScanlistView.baml
+D:\VSNET\Prism\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\ScanlistView.g.cs
+D:\VSNET\Prism\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule_cs_MarkupCompile.cache
+D:\VSNET\Prism\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule_cs.g.resources
+D:\VSNET\Prism\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule_cs.dll
+D:\VSNET\Prism\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule_cs.pdb

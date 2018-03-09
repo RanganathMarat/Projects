@@ -1,0 +1,6 @@
+C:\~Office\Workz\Projects\AngularJs\VS-AngularJS\bin\VS-AngularJS.dll.config
+C:\~Office\Workz\Projects\AngularJs\VS-AngularJS\bin\VS-AngularJS.dll
+C:\~Office\Workz\Projects\AngularJs\VS-AngularJS\bin\VS-AngularJS.pdb
+C:\~Office\Workz\Projects\AngularJs\VS-AngularJS\obj\Debug\VS-AngularJS.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\AngularJs\VS-AngularJS\obj\Debug\VS-AngularJS.dll
+C:\~Office\Workz\Projects\AngularJs\VS-AngularJS\obj\Debug\VS-AngularJS.pdb

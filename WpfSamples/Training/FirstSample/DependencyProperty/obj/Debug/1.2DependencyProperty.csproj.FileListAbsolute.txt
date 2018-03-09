@@ -1,0 +1,12 @@
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.exe.config
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\DependencyProperty.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\DependencyProperty.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\1.2DependencyProperty.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.exe.config
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\DependencyProperty.exe
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\DependencyProperty.pdb
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.exe
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.pdb
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\1.2DependencyProperty.csprojResolveAssemblyReference.cache

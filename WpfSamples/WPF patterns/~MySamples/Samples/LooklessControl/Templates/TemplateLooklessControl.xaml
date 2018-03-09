@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:own="clr-namespace:LooklessControl"
+                    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+                    xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" >
+    <ControlTemplate x:Key="ControlTemplateforLooklessControl">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock x:Name="FirstTextBlock" VerticalAlignment="Bottom" Margin="10" Width="100" Height="50"
+                       Text="{Binding RelativeSource={RelativeSource AncestorType=own:LooklessEditableTextLabelControl}, Path=LabelText}"></TextBlock>
+            <TextBox x:Name="SecondTextBox" VerticalAlignment="Bottom" Margin="10" Width="100" Height="50"
+                     Text="{Binding RelativeSource={RelativeSource AncestorType=own:LooklessEditableTextLabelControl}, Path=EditableText}"></TextBox>
+            <Button x:Name="ThirdButton" VerticalAlignment="Bottom" Margin="10" Width="100" Height="50" Content="Save">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click" SourceObject="{Binding ElementName=ThirdButton}">
+                        <ei:CallMethodAction MethodName="Save" TargetObject="{Binding RelativeSource={RelativeSource AncestorType=own:LooklessEditableTextLabelControl}}"></ei:CallMethodAction>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+        </StackPanel>
+    </ControlTemplate>
+</ResourceDictionary>

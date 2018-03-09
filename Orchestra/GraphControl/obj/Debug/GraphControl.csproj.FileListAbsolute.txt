@@ -1,0 +1,13 @@
+D:\Rabi\Projects\Orchestra\build_output\GraphControl.XML
+D:\Rabi\Projects\Orchestra\build_output\GraphControl.dll
+D:\Rabi\Projects\Orchestra\build_output\GraphControl.pdb
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\GraphControl.csprojResolveAssemblyReference.cache
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\Chart.baml
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\Chart.g.cs
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\GraphControl_MarkupCompile.cache
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\GraphControl.g.resources
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\GraphControl.Properties.Resources.resources
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\GraphControl.csproj.GenerateResource.Cache
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\GraphControl.dll
+D:\Rabi\Projects\Orchestra\GraphControl\obj\Debug\GraphControl.pdb
+D:\Rabi\Projects\Orchestra\build_output\libzmq.dll

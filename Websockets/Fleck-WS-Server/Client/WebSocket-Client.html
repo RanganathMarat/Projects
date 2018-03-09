@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="WebSocket-Client.css">
+        <title>First Website</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script >
+            $(document).ready(function () {
+                console.log('WebSocket is supported by your browser.');
+                if ("WebSocket" in window) {
+
+                    console.log('WebSocket is supported by your browser.');
+
+                    var serviceUrl = 'ws://127.0.0.1:8181/';
+                    var socket = new WebSocket(serviceUrl);
+
+                    socket.onopen = function () {
+                        console.log('Connection Established!');
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+
+                    };
+
+                    socket.onclose = function () {
+                        console.log('Connection Closed!');
+                        socket.close();
+                    };
+
+                    socket.onerror = function (error) {
+                        console.log('Error Occured: ' + error);
+                    };
+
+                    socket.onmessage = function (e) {
+                        if (typeof e.data === "string") {
+                            console.log('String message received: ' + e.data);
+                        }
+                        else if (e.data instanceof ArrayBuffer) {
+                            console.log('ArrayBuffer received: ' + e.data);
+                        }
+                        else if (e.data instanceof Blob) {
+                            console.log('Blob received: ' + e.data);
+                        }
+                    };
+
+
+                }
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <script>
+            function WebSocketSample() {
+                console.log('WebSocket is supported by your browser.');
+                if ("WebSocket" in window) {
+
+                    console.log('WebSocket is supported by your browser.');
+
+                    var serviceUrl = 'ws://127.0.0.1:8181/';
+                    var socket = new WebSocket(serviceUrl);
+
+                    socket.onopen = function () {
+                        console.log('Connection Established!');
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+                        socket.send("Hello WebSocket!");
+
+                    };
+
+                    socket.onclose = function () {
+                        console.log('Connection Closed!');
+                        socket.close();
+                    };
+
+                    socket.onerror = function (error) {
+                        console.log('Error Occured: ' + error);
+                    };
+
+                    socket.onmessage = function (e) {
+                        if (typeof e.data === "string") {
+                            console.log('String message received: ' + e.data);
+                        }
+                        else if (e.data instanceof ArrayBuffer) {
+                            console.log('ArrayBuffer received: ' + e.data);
+                        }
+                        else if (e.data instanceof Blob) {
+                            console.log('Blob received: ' + e.data);
+                        }
+                    };
+
+                    
+                }
+            }
+        </script>
+
+        <div id="sse">
+            <a href="javascript:WebSocketSample()">Run WebSocket</a>
+        </div>
+
+    </body>
+</html>

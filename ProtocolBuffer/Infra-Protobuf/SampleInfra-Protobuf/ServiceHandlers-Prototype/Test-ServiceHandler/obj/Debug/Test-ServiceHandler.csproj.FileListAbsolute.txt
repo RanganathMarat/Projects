@@ -1,0 +1,50 @@
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.csprojResolveAssemblyReference.cache
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.exe.config
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.exe
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\AsyncIO.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\InfraProtobuf.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\NetMQ.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\protobuf-net.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\ZMQLibrary.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.xml
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\InfraProtobuf.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\NetMQ.xml
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\protobuf-net.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\protobuf-net.xml
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\ZMQLibrary.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.exe
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.pdb
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.exe.config
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.exe
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.pdb
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\AsyncIO.dll
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\InfraProtobuf.dll
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\NetMQ.dll
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.dll
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\protobuf-net.dll
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\ZMQLibrary.dll
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.pdb
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.xml
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\InfraProtobuf.pdb
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\NetMQ.xml
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\protobuf-net.pdb
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\protobuf-net.xml
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\ZMQLibrary.pdb
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.csprojResolveAssemblyReference.cache
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.exe
+C:\~Office\1-Project\1-Console\2-PostProcPlugin\Code\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.pdb
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.exe.config
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.exe
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\Test-ServiceHandler.pdb
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\AsyncIO.dll
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.dll
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\ZMQLibrary.dll
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.pdb
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\PluginInfraServices.xml
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\bin\Debug\ZMQLibrary.pdb
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.exe
+C:\~Office\Workz\Projects\ProtocolBuffer\Infra-Protobuf\SampleInfra-Protobuf\ServiceHandlers-Prototype\Test-ServiceHandler\obj\Debug\Test-ServiceHandler.pdb

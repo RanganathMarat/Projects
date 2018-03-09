@@ -1,0 +1,11 @@
+D:\Rabi\Projects\Orchestra\build_output\Orchestra.exe.config
+D:\Rabi\Projects\Orchestra\FlashScreen\obj\Debug\Orchestra.csprojResolveAssemblyReference.cache
+D:\Rabi\Projects\Orchestra\FlashScreen\obj\Debug\Orchestra.FlashForm.resources
+D:\Rabi\Projects\Orchestra\FlashScreen\obj\Debug\Orchestra.Properties.Resources.resources
+D:\Rabi\Projects\Orchestra\FlashScreen\obj\Debug\Orchestra.csproj.GenerateResource.Cache
+D:\Rabi\Projects\Orchestra\build_output\Orchestra.xml
+D:\Rabi\Projects\Orchestra\build_output\Orchestra.exe
+D:\Rabi\Projects\Orchestra\build_output\Orchestra.pdb
+D:\Rabi\Projects\Orchestra\FlashScreen\obj\Debug\Orchestra.exe
+D:\Rabi\Projects\Orchestra\FlashScreen\obj\Debug\Orchestra.pdb
+D:\Rabi\Projects\Orchestra\build_output\libzmq.dll

@@ -1,0 +1,23 @@
+﻿<Window x:Class="AttachingMultipleBehiorsToObjectSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:this="clr-namespace:AttachingMultipleBehiorsToObjectSample"
+        Title="MainWindow"
+        Height="350"
+        Width="525">
+    <Window.Resources>
+        <x:Array Type="this:IBehavior" x:Key="TheBehaviors">
+            <this:ChangeOpacityOnMouseOverBehavior/>
+
+            <this:ChangeWidthBehavior />
+        </x:Array>
+    </Window.Resources>
+    <Grid>
+        <Grid HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              Height="30"
+              Width="100"
+              Background="Green"
+              this:AttachedProperties.TheBehaviors="{StaticResource TheBehaviors}" />
+    </Grid>
+</Window>

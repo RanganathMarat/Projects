@@ -1,0 +1,13 @@
+﻿<Window x:Class="CommandDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <StackPanel.CommandBindings>
+            <CommandBinding Command="ApplicationCommands.Save" Executed="CommandBinding_Executed_1"></CommandBinding>
+            <CommandBinding Command="ApplicationCommands.Paste"  Executed="CommandBinding_Executed_2"></CommandBinding>
+        </StackPanel.CommandBindings>
+        <Button Command="ApplicationCommands.Save"  Content="Save" Height="30" Width="80"></Button>
+        <Button Command="ApplicationCommands.Paste" Content="Destroy" Height="30" Width="80"></Button>
+    </StackPanel>
+</Window>

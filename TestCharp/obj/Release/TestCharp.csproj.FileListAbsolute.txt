@@ -1,0 +1,6 @@
+C:\~Office\Workz\Projects\TestCharp\bin\Release\TestCharp.exe.config
+C:\~Office\Workz\Projects\TestCharp\bin\Release\TestCharp.exe
+C:\~Office\Workz\Projects\TestCharp\bin\Release\TestCharp.pdb
+C:\~Office\Workz\Projects\TestCharp\obj\Release\TestCharp.exe
+C:\~Office\Workz\Projects\TestCharp\obj\Release\TestCharp.pdb
+C:\~Office\Workz\Projects\TestCharp\obj\Release\TestCharp.csprojResolveAssemblyReference.cache

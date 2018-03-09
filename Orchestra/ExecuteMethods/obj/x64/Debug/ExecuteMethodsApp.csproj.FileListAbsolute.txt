@@ -1,0 +1,10 @@
+D:\Rabi\Projects\Orchestra\ExecuteMethods\obj\x64\Debug\ExecuteMethodsApp.csprojResolveAssemblyReference.cache
+D:\Rabi\Projects\Orchestra\ExecuteMethods\obj\x64\Debug\ExecuteMethodsApp.Execute.resources
+D:\Rabi\Projects\Orchestra\ExecuteMethods\obj\x64\Debug\ExecuteMethodsApp.Properties.Resources.resources
+D:\Rabi\Projects\Orchestra\ExecuteMethods\obj\x64\Debug\ExecuteMethodsApp.csproj.GenerateResource.Cache
+D:\Rabi\Projects\Orchestra\build_output\ExecuteMethodsApp.exe.config
+D:\Rabi\Projects\Orchestra\build_output\ExecuteMethodsApp.XML
+D:\Rabi\Projects\Orchestra\build_output\ExecuteMethodsApp.exe
+D:\Rabi\Projects\Orchestra\build_output\ExecuteMethodsApp.pdb
+D:\Rabi\Projects\Orchestra\ExecuteMethods\obj\x64\Debug\ExecuteMethodsApp.exe
+D:\Rabi\Projects\Orchestra\ExecuteMethods\obj\x64\Debug\ExecuteMethodsApp.pdb

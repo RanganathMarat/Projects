@@ -1,0 +1,6 @@
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DepProperty2\bin\Debug\DepProperty2.exe.config
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DepProperty2\bin\Debug\DepProperty2.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DepProperty2\bin\Debug\DepProperty2.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DepProperty2\obj\Debug\StyleSetter.csprojResolveAssemblyReference.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DepProperty2\obj\Debug\DepProperty2.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DepProperty2\obj\Debug\DepProperty2.pdb

@@ -1,0 +1,6 @@
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.exe.config
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\bin\Debug\DependencyProperty.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\DependencyProperty.csprojResolveAssemblyReference.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\DependencyProperty.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DependencyProperty\obj\Debug\DependencyProperty.pdb

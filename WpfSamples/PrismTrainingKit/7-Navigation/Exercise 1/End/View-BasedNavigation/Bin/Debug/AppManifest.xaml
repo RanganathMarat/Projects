@@ -1,0 +1,14 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="View-BasedNavigation" EntryPointType="View_BasedNavigation.App" RuntimeVersion="4.0.60310.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="View-BasedNavigation" Source="View-BasedNavigation.dll" />
+    <AssemblyPart x:Name="Infrastructure" Source="Infrastructure.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Prism" Source="Microsoft.Practices.Prism.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Prism.MefExtensions" Source="Microsoft.Practices.Prism.MefExtensions.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.ServiceLocation" Source="Microsoft.Practices.ServiceLocation.dll" />
+    <AssemblyPart x:Name="ModuleA" Source="ModuleA.dll" />
+    <AssemblyPart x:Name="ModuleB" Source="ModuleB.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.Composition" Source="System.ComponentModel.Composition.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.Composition.Initialization" Source="System.ComponentModel.Composition.Initialization.dll" />
+  </Deployment.Parts>
+</Deployment>

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EquEngine</name>
+    </assembly>
+    <members>
+        <member name="M:EquEngine.Executer.#ctor(Common.Global.Instructions.Signal,EquEngine.IExecuterCallback)">
+            <summary>
+            Initializes a new instance of the <see cref="T:EquEngine.Executer"/> class.
+            </summary>
+            <param name="signal">The signal.</param>
+            <param name="callback">The callback.</param>
+        </member>
+        <member name="M:EquEngine.Program.Consume(Common.Messages.Execution.LoadMethod)">
+            <summary>
+            Consumes the specified message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:EquEngine.Program.Consume(Common.Messages.Execution.StartExecution)">
+            <summary>
+            Consumes the specified message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:EquEngine.Program.Consume(Common.Messages.Execution.StopExecution)">
+            <summary>
+            Consumes the specified message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:EquEngine.Program.Consume(Common.Messages.Oporational.Shutdown)">
+            <summary>
+            Consumes the specified message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:EquEngine.Program.Start">
+            <summary>
+            Starts this instance.
+            </summary>
+        </member>
+        <member name="M:EquEngine.Program.Stop">
+            <summary>
+            Stops this instance.
+            </summary>
+        </member>
+        <member name="M:EquEngine.Program.Consume(Common.Messages.Oporational.Ping)">
+            <summary>
+            Consumes the specified message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:EquEngine.SignalGenerator">
+            <summary>
+            SignalGenerator
+            </summary>
+        </member>
+        <member name="F:EquEngine.SignalGenerator._startTime">
+            <summary>
+                Time the signal generator was started
+            </summary>
+        </member>
+        <member name="F:EquEngine.SignalGenerator._ticksPerSecond">
+            <summary>
+                Ticks per second on this CPU
+            </summary>
+        </member>
+        <member name="M:EquEngine.SignalGenerator.#ctor(Common.Global.Instructions.Waveforms)">
+            <summary>
+                Initializes a new instance of the <see cref="T:EquEngine.SignalGenerator"/> class.
+            </summary>
+            <param name="initialSignalType">Initial type of the signal.</param>
+        </member>
+        <member name="M:EquEngine.SignalGenerator.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:EquEngine.SignalGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:EquEngine.SignalGenerator.GetValue(System.Single)">
+            <summary>
+                Gets the value.
+            </summary>
+            <param name="time">The time.</param>
+            <returns></returns>
+        </member>
+        <member name="M:EquEngine.SignalGenerator.GetValue(System.Single@)">
+            <summary>
+                Gets the value.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EquEngine.SignalGenerator.Reset">
+            <summary>
+                Resets this instance.
+            </summary>
+        </member>
+        <member name="P:EquEngine.SignalGenerator.SignalType">
+            <summary>
+                Signal Type.
+            </summary>
+        </member>
+        <member name="P:EquEngine.SignalGenerator.Frequency">
+            <summary>
+                Signal Frequency.
+            </summary>
+        </member>
+        <member name="P:EquEngine.SignalGenerator.Phase">
+            <summary>
+                Signal Phase.
+            </summary>
+        </member>
+        <member name="P:EquEngine.SignalGenerator.Amplitude">
+            <summary>
+                Signal Amplitude.
+            </summary>
+        </member>
+        <member name="P:EquEngine.SignalGenerator.Offset">
+            <summary>
+                Signal Offset.
+            </summary>
+        </member>
+        <member name="P:EquEngine.SignalGenerator.Invert">
+            <summary>
+                Signal Inverted?
+            </summary>
+        </member>
+    </members>
+</doc>

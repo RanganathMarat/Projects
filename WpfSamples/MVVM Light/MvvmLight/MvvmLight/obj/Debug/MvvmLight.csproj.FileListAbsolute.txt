@@ -1,0 +1,1 @@
+D:\Workz\Projects\WpfSamples\MVVM Light\MvvmLight\MvvmLight\bin\Debug\MvvmLight.exe.config

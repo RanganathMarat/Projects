@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Orchestra</name>
+    </assembly>
+    <members>
+        <member name="T:Orchestra.FlashForm">
+            <summary>
+            FlashForm
+            </summary>
+        </member>
+        <member name="M:Orchestra.FlashForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.FlashForm"/> class.
+            </summary>
+        </member>
+        <member name="F:Orchestra.FlashForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Orchestra.FlashForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Orchestra.FlashForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Orchestra.Program._manageApps">
+            <summary>
+            The manage apps
+            </summary>
+        </member>
+        <member name="M:Orchestra.Program.Main">
+            <summary>
+                The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Program.StartAppProcess(Common.Messages.Oporational.AppType)">
+            <summary>
+            Starts the application process.
+            </summary>
+            <param name="app">The application.</param>
+        </member>
+        <member name="T:Orchestra.ManageApplications">
+            <summary>
+                ManageApplications
+            </summary>
+        </member>
+        <member name="M:Orchestra.ManageApplications.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.ManageApplications"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.ManageApplications.Consume(Common.Messages.Oporational.AppClosed)">
+            <summary>
+            Consumes the specified object.
+            </summary>
+            <param name="obj">The object.</param>
+        </member>
+        <member name="M:Orchestra.ManageApplications.Consume(Common.Messages.Oporational.AppStarted)">
+            <summary>
+            Consumes the specified object.
+            </summary>
+            <param name="obj">The object.</param>
+        </member>
+        <member name="M:Orchestra.ManageApplications.StartApplication(Common.Messages.Oporational.AppType)">
+            <summary>
+            Starts the application.
+            </summary>
+            <param name="app">The application.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">app</exception>
+        </member>
+        <member name="M:Orchestra.ManageApplications.CloseAll">
+            <summary>
+            Closes all.
+            </summary>
+        </member>
+        <member name="M:Orchestra.ManageApplications.Ping(Common.Messages.Oporational.AppType)">
+            <summary>
+            Pings the specified application.
+            </summary>
+            <param name="app">The application.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Orchestra.ManageApplications.Consume(Common.Messages.Oporational.PingResponce)">
+            <summary>
+            Consumes the specified message.
+            </summary>
+            <param name="msg">The message.</param>
+        </member>
+        <member name="M:Orchestra.ManageApplications.AppClosed(Common.Messages.Oporational.AppType)">
+            <summary>
+            Applications the closed.
+            </summary>
+            <param name="app"></param>
+            <exception cref="T:System.ArgumentOutOfRangeException">app</exception>
+        </member>
+        <member name="M:Orchestra.ManageApplications.AppStarted(Common.Messages.Oporational.AppType)">
+            <summary>
+            Applications the started.
+            </summary>
+            <param name="app">The application.</param>
+        </member>
+        <member name="M:Orchestra.ManageApplications.StartAllApps">
+            <summary>
+                Starts all apps.
+            </summary>
+        </member>
+        <member name="M:Orchestra.ManageApplications.Renewal(System.Runtime.Remoting.Lifetime.ILease)">
+            <summary>
+            Requests a sponsoring client to renew the lease for the specified object.
+            </summary>
+            <param name="lease">The lifetime lease of the object that requires lease renewal.</param>
+            <returns>
+            The additional lease time for the specified object.
+            </returns>
+            <PermissionSet>
+              <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="Infrastructure" />
+              </PermissionSet>
+        </member>
+        <member name="T:Orchestra.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

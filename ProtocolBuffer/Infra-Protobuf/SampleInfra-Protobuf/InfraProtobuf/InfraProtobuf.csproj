@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E49CF11-48DB-4F95-BFE4-F0512AF48E56}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InfraProtobuf</RootNamespace>
+    <AssemblyName>InfraProtobuf</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+    <ProtobufNetPath Condition="'$(ProtobufNetPath)' == ''">..\Vendor\protobuf-net\protobuf-net\</ProtobufNetPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net">
+      <HintPath>$(ProtobufNetPath)bin\$(Configuration)\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClashException.cs" />
+    <Compile Include="ClassModeler.cs" />
+    <Compile Include="CommentDecorator.cs" />
+    <Compile Include="CompiledModelContainer.cs" />
+    <Compile Include="ConversionException.cs" />
+    <Compile Include="DataModelFactory.cs" />
+    <Compile Include="DerivedTypeInfo.cs" />
+    <Compile Include="Exporter.cs" />
+    <Compile Include="ExtensibleRootInfo.cs" />
+    <Compile Include="FieldExtractor.cs" />
+    <Compile Include="ForcedIdAttribute.cs" />
+    <Compile Include="IDataModelTag.cs" />
+    <Compile Include="IdManager.cs" />
+    <Compile Include="IEnumProvider.cs" />
+    <Compile Include="IMappingResult.cs" />
+    <Compile Include="INamespaceTag.cs" />
+    <Compile Include="IProtoFileTag.cs" />
+    <Compile Include="ISerializer.cs" />
+    <Compile Include="Logging.cs" />
+    <Compile Include="Modeler.cs" />
+    <Compile Include="ModelReflectionException.cs" />
+    <Compile Include="ModelViolationException.cs" />
+    <Compile Include="NamespaceId.cs" />
+    <Compile Include="NamespaceTag.cs" />
+    <Compile Include="ObsoleteDataAttribute.cs" />
+    <Compile Include="protobuf_cs.assemblyinfo.cs" />
+    <Compile Include="ProtoFileMappingResult.cs" />
+    <Compile Include="ProtoFileTag.cs" />
+    <Compile Include="ReflectedMappingResult.cs" />
+    <Compile Include="RootClassDetector.cs" />
+    <Compile Include="SerializationException.cs" />
+    <Compile Include="Serializer.cs" />
+    <Compile Include="StreamIOException.cs" />
+    <Compile Include="TypeMapper.cs" />
+    <Compile Include="TypePopulator.cs" />
+    <Compile Include="UnknownTypeException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

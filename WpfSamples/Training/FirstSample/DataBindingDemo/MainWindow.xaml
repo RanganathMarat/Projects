@@ -1,0 +1,17 @@
+﻿<Window x:Class="DataBindingDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+
+    <StackPanel>
+        <Slider Name="Slider" Maximum="100" Minimum="10" ToolTip="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Value}"></Slider>
+        <TextBlock Name="Strenght" Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}, Path=Title}" Margin="10" FontSize="{Binding Source={x:Reference Name=Slider}, Path=Value, Mode=TwoWay}">
+            <!--<TextBlock.FontSize>-->
+                <!--Element name is used only in 3.5. The reference markup extension is not supported by 3.5-->
+                <!--<Binding ElementName="Slider" Path="Value" Mode="OneWay"></Binding>-->
+                <!--<Binding Source="{x:Reference Name=Slider}" Path="Value" Mode="OneWay"></Binding>-->
+            <!--</TextBlock.FontSize>-->
+        </TextBlock>
+        <TextBox Text="{Binding Source={x:Reference Name=Strenght}, Path=FontSize, UpdateSourceTrigger=PropertyChanged}" Margin="10" Height="20"></TextBox>
+    </StackPanel>
+</Window>

@@ -1,0 +1,4 @@
+Type,Unique ID,ID,Name,Begin Time,End Time,Life Time
+Process,0,3776,LooklessControl.exe,0,"9,197.10","9,197.10"
+Thread,2,8384,_CorExeMain,86.1,"8,772.75","8,686.65"
+Thread,4,8520,[wpfgfx_v0400.dll],273.29,"8,766.62","8,493.32"

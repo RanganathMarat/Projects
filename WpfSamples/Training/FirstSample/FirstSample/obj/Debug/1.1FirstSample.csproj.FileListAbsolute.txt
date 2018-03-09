@@ -1,0 +1,3 @@
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\bin\Debug\FirstSample.exe.config
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample.exe
+C:\~Office\Workz\Projects\WpfSamples\Training\FirstSample\FirstSample\obj\Debug\FirstSample.pdb

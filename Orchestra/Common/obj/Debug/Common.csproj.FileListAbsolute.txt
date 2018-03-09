@@ -1,0 +1,5 @@
+D:\Rabi\Projects\Orchestra\build_output\Common.XML
+D:\Rabi\Projects\Orchestra\build_output\Common.dll
+D:\Rabi\Projects\Orchestra\build_output\Common.pdb
+D:\Rabi\Projects\Orchestra\Common\obj\Debug\Common.dll
+D:\Rabi\Projects\Orchestra\Common\obj\Debug\Common.pdb

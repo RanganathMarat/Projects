@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GraphControl</name>
+    </assembly>
+    <members>
+        <member name="T:GraphControl.Chart">
+            <summary>
+                Interaction logic for UserControl1.xaml
+            </summary>
+            <summary>
+            Chart
+            </summary>
+        </member>
+        <member name="M:GraphControl.Chart.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:GraphControl.Chart"/> class.
+            </summary>
+        </member>
+        <member name="M:GraphControl.Chart.HandleDataPoint(Common.Messages.Execution.DataPoint)">
+            <summary>
+            Handles the data point.
+            </summary>
+            <param name="dataPoint">The data point.</param>
+        </member>
+        <member name="M:GraphControl.Chart.ClearGraph">
+            <summary>
+            Clears the graph.
+            </summary>
+        </member>
+        <member name="M:GraphControl.Chart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:GraphControl.Chart.GraphData.#ctor(Common.Global.Instructions.Colors)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GraphControl.Chart.GraphData"/> class.
+            </summary>
+            <param name="color">The color.</param>
+        </member>
+        <member name="P:GraphControl.Chart.GraphData.DataSource">
+            <summary>
+            Gets or sets the data source.
+            </summary>
+            <value>
+            The data source.
+            </value>
+        </member>
+        <member name="P:GraphControl.Chart.GraphData.Pen">
+            <summary>
+            Gets or sets the pen.
+            </summary>
+            <value>
+            The pen.
+            </value>
+        </member>
+        <member name="P:GraphControl.Chart.GraphData.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="P:GraphControl.Chart.GraphData.Graph">
+            <summary>
+            Gets or sets the graph.
+            </summary>
+            <value>
+            The graph.
+            </value>
+        </member>
+        <member name="T:GraphControl.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GraphControl.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GraphControl.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

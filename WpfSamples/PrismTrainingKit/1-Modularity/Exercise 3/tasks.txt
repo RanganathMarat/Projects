@@ -1,0 +1,26 @@
+1) Add a new file to the SHell project named ModulesCatalog.xaml using the XML file template. Make sure its Build Action is set to "Resource"
+2) Add the root ModulesCatalog element.
+	<Modularity:ModuleCatalog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:sys="clr-namespace:System;assembly=mscorlib"
+               xmlns:Modularity="clr-namespace:Microsoft.Practices.Composite.Modularity;assembly=Microsoft.Practices.Composite">
+	</Modularity:ModuleCatalog>
+3) Add a new element for ModuleA to be loaded.
+	<Modularity:ModuleInfo Ref="Workshop.ModuleA.xap" ModuleName="ModuleA" ModuleType="Workshop.ModuleA.ModuleA, Workshop.ModuleA, Version=1.0.0.0" />
+4) Update the GetModuleCatalog method in the bootstrapper to populate the ModuleCatalog from XAML.	
+	using System;
+	protected override IModuleCatalog GetModuleCatalog()
+        {
+            return
+               ModuleCatalog.CreateFromXaml(
+                   new Uri("/Prism.Workshop;component/ModulesCatalog.xaml", UriKind.Relative));
+        }
+
+5) Compile and run the solution. Explain that this is not remote yet.
+
+Remote Module Loading
+=====================
+6) Remove reference to Workshop.ModuleA project in the Shell project.
+7) Delete bin folder to make sure there are no copied binaries.
+8) Make Web project the startup project.
+9) Compile and run.

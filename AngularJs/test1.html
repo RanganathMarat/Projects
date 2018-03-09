@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+	<title>
+		Learn AngularJS
+	</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+</head>
+<body ng-app>
+	<div>
+		<p>This is the first AngulaJS expression {{1+2}}</p>
+		Enter your name: <input type="text" ng-model="name"></input>
+		<p>Hello Mr.{{name | uppercase }}</p>
+	</div>
+	<!-- Test the controller usage. Here visible serves like a model -->
+	<div ng-controller="MyController">
+	<button ng-click="toggle()">Click Here</button>
+	<p ng-show="visible">You can see me!!</p>
+	</div>
+	<!-- Test the Watch functionality -->
+	<div ng-controller="MySecondController">
+	<input type="text" ng-model="name" placeholder="Enter your name"></input>
+	<p> {{greeting}}</p>
+	</div>
+	<!-- Try using the directives. 
+		The purpose of these directives is - 
+		1. To manage HTML elements or styling by encapsulating them in 
+		resuable components
+		2. Build re-usable components is a important advantage-->
+	<div>
+		<label>
+			<input type ="checkbox" ng-model="checked"></input>
+		Check and Uncheck
+		</label>
+		<button ng-disabled="checked">Press Me</button>
+	</div>
+</body>
+<script>
+<!-- The controller uses the $scope to read all the variables within that scope -->
+function MyController($scope)
+{
+	$scope.visible=true;
+	$scope.toggle = function() {
+	$scope.visible = !$scope.visible;
+	}
+}
+function MySecondController($scope)
+{
+	$scope.$watch("name", function(oldvalue, newvalue) {
+	if ( $scope.name.length > 0) 
+	{
+		$scope.greeting = "Hello there " + $scope.name;
+	}
+	});
+}
+</script>
+</html>

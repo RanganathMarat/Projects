@@ -1,0 +1,31 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:local="clr-namespace:MVVMPattternDemo"
+        xmlns:cb="clr-namespace:MVVMPattternDemo.Behaviors"
+        xmlns:wi="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity">
+    <Window.DataContext>
+        <local:ViewModel></local:ViewModel>
+    </Window.DataContext>
+    <StackPanel>
+        <ComboBox Name="Combo" Width="100" cb:CommandBehavior.CommandParameter="{Binding ElementName=Combo, Path=SelectedItem.Content}"  cb:CommandBehavior.EventName="ComboBox.SelectionChanged" cb:CommandBehavior.Command="{Binding Path=Save}">
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+        </ComboBox>
+        <ComboBox Name="Combo2" Width="100">
+            <wi:Interaction.Triggers>
+                <wi:EventTrigger EventName="SelectionChanged">
+                    <wi:InvokeCommandAction Command="{Binding Path=Save}" CommandParameter="{Binding ElementName=Combo2, Path=SelectedItem.Content}"></wi:InvokeCommandAction>
+                </wi:EventTrigger>
+            </wi:Interaction.Triggers>
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+        </ComboBox>
+        <!--<Button Command="{Binding Path=Save}" Width="70" Height="50" Content="Search"></Button>-->
+        <local:MVVMButton Height="50" Width="70" Command="{Binding Path=Save}"></local:MVVMButton>
+        <TextBox Text="{Binding Path=SearchKey, Mode=OneWayToSource}" ></TextBox>
+        <TextBlock Text="{Binding Path=SearchResult, Mode=OneWay}"></TextBlock>
+    </StackPanel>
+</Window>

@@ -1,0 +1,13 @@
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\bin\Debug\UnderstandStyles.exe.config
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\bin\Debug\UnderstandStyles.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\bin\Debug\UnderstandStyles.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\UnderstandStyles.csprojResolveAssemblyReference.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\MainWindow.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\MainWindow.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\App.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\UnderstandStyles_MarkupCompile.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\UnderstandStyles.g.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\UnderstandStyles.Properties.Resources.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\UnderstandStyles.csproj.GenerateResource.Cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\UnderstandStyles.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\UnderstandStyles\obj\Debug\UnderstandStyles.pdb

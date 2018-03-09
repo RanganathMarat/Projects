@@ -1,0 +1,16 @@
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\bin\Debug\DependencyPropertyChangeDetectionSample.exe.config
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\bin\Debug\DependencyPropertyChangeDetectionSample.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\bin\Debug\DependencyPropertyChangeDetectionSample.pdb
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample.csprojResolveAssemblyReference.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\MainWindow.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\App.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample_MarkupCompile.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample_MarkupCompile.lref
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\MainWindow.baml
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\Themes\SampleControls.baml
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample.g.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample.Properties.Resources.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample.csproj.GenerateResource.Cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\DependencyPropertyChangeDetectionSample\obj\Debug\DependencyPropertyChangeDetectionSample.pdb

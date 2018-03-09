@@ -1,0 +1,40 @@
+﻿<Window x:Class="DataBindingDemo.DataBindingDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DataBindingDemo.Model"
+        Title="DataBindingDemo" Height="300" Width="481.091">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ErrorStyle">
+                <Style.Triggers>
+                    <Trigger Property="Validation.HasError" Value="true">
+                        <Trigger.Setters>
+                            <Setter Property="Validation.ErrorTemplate">
+                                <Setter.Value>
+                                    <ControlTemplate>
+                                        <!--<Border BorderBrush="Red" BorderThickness="2">-->
+                                            <StackPanel Orientation="Horizontal">
+                                                <Border BorderBrush="Red" BorderThickness="2">
+                                                    <AdornedElementPlaceholder Name="AEPH"></AdornedElementPlaceholder>
+                                                </Border>
+                                                <TextBlock Text="{Binding ElementName=AEPH, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}" Foreground="Red"></TextBlock>
+                                            </StackPanel>
+                                        <!--</Border>-->
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger.Setters>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Canvas>
+        <TextBox Name="StateBox" Width="330" Canvas.Left="43" Canvas.Top="58" Text="{Binding Path=Datamodel.State}"></TextBox>
+        <Button Height="48" Canvas.Left="17" Canvas.Top="113" Width="104" Click="Button_Click_1">Create</Button>
+        <Button Canvas.Left="153" Canvas.Top="113" Height="49" Width="107" Click="Button_Click_2">Set</Button>
+        <Button Height="49" Width="146" Canvas.Left="276" Canvas.Top="113" Click="Button_Click_3">Get</Button>
+        <TextBox Text="{Binding Path=Number}"  Width="330" Canvas.Left="43" Canvas.Top="28" Style="{StaticResource ResourceKey=ErrorStyle}"></TextBox>
+    </Canvas>
+</Window>

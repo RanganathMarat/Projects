@@ -1,0 +1,34 @@
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\bin\Debug\UserControlWithCodeBehind.exe.config
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\bin\Debug\UserControlWithCodeBehind.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\bin\Debug\UserControlWithCodeBehind.pdb
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.csprojResolveAssemblyReference.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\MainWindow.baml
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\EditableTextAndLabelControl.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\MainWindow.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\App.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind_MarkupCompile.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind_MarkupCompile.lref
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\EditableTextAndLabelControl.baml
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.g.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.Properties.Resources.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.csproj.GenerateResource.Cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.pdb
+C:\IDEAS\articles\WPF_PATTERNS\CODE\UserControlWithCodeBehind\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\bin\Debug\UserControlWithCodeBehind.exe.config
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\bin\Debug\UserControlWithCodeBehind.exe
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\bin\Debug\UserControlWithCodeBehind.pdb
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.csprojResolveAssemblyReference.cache
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\EditableTextAndLabelControl.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\MainWindow.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\App.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind_MarkupCompile.cache
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind_MarkupCompile.lref
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\EditableTextAndLabelControl.baml
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\MainWindow.baml
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.g.resources
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.Properties.Resources.resources
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.csproj.GenerateResource.Cache
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.exe
+D:\Workz\Projects\WpfSamples\WPF patterns\UserControlWithCodeBehind\obj\Debug\UserControlWithCodeBehind.pdb

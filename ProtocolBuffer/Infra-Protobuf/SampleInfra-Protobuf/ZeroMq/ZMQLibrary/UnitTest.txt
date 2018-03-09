@@ -1,0 +1,8 @@
+﻿1. Connect the client and then bind the server
+2. Timeout handling for messages
+3. Sending messages of size zero.
+4. Sending multiple messages ( Load test)
+5. Performance measurement tests
+6. Working with multipart messages ( check if this is necessary)
+7. Check on what are the largest messages that we can send ( Memory consumption against message size)
+8. Check on what possible exceptions can be raised but NetMQ APIs

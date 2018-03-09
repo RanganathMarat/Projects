@@ -1,0 +1,12 @@
+1) Add "Modules" solution folder.
+2) Add new Silverlight Application project (to enable Remote Module Loading in the future) to solution folder. Named "Workshop.ModuleA".
+	a) Clear the Add a test page that references the application check box, and then click OK.
+3) Delete the MainPage.xaml and the App.xaml files.
+4) Add references to Composite and Composite.Presentation assemblies.
+5) Move ModuleA.cs from the Prism.WorkshopProject to the newly created project.
+	a) Rename namespace to Workshop.ModuleA
+6) Add a reference in the Shell project to the Workshop.ModuleA project.
+7) Update the bootstrapper to use the Module class in the new project.
+	using Workshop.ModuleA;
+8) Compile and run the application.
+

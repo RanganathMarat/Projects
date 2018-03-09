@@ -1,0 +1,14 @@
+c:\users\matti.jantti\documents\visual studio 2010\Projects\DataMappingSample\DataMappingSample\bin\Debug\DataMappingSample.exe
+c:\users\matti.jantti\documents\visual studio 2010\Projects\DataMappingSample\DataMappingSample\bin\Debug\DataMappingSample.pdb
+c:\users\matti.jantti\documents\visual studio 2010\Projects\DataMappingSample\DataMappingSample\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\matti.jantti\documents\visual studio 2010\Projects\DataMappingSample\DataMappingSample\obj\x86\Debug\DataMappingSample.exe
+c:\users\matti.jantti\documents\visual studio 2010\Projects\DataMappingSample\DataMappingSample\obj\x86\Debug\DataMappingSample.pdb
+C:\Users\matti.jantti\Documents\Visual Studio 2010\Projects\DataMappingSample\DataMappingSample\bin\Debug\MasaSam.Data.Mapping.dll
+C:\Users\matti.jantti\Documents\Visual Studio 2010\Projects\DataMappingSample\DataMappingSample\bin\Debug\MasaSam.Data.Mapping.pdb
+D:\Workz\Projects\WpfSamples\Data Mapper Design Pattern in C#\C#\DataMappingSample\obj\x86\Debug\DataMappingSample.exe
+D:\Workz\Projects\WpfSamples\Data Mapper Design Pattern in C#\C#\DataMappingSample\obj\x86\Debug\DataMappingSample.pdb
+D:\Workz\Projects\WpfSamples\Data Mapper Design Pattern in C#\C#\DataMappingSample\bin\Debug\DataMappingSample.exe
+D:\Workz\Projects\WpfSamples\Data Mapper Design Pattern in C#\C#\DataMappingSample\bin\Debug\DataMappingSample.pdb
+D:\Workz\Projects\WpfSamples\Data Mapper Design Pattern in C#\C#\DataMappingSample\bin\Debug\MasaSam.Data.Mapping.dll
+D:\Workz\Projects\WpfSamples\Data Mapper Design Pattern in C#\C#\DataMappingSample\bin\Debug\MasaSam.Data.Mapping.pdb
+D:\Workz\Projects\WpfSamples\Data Mapper Design Pattern in C#\C#\DataMappingSample\obj\x86\Debug\DataMappingSample.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+﻿<xapCache source="C:\PrismTK_4.0\2-Dependency Injection\Exercise 1\End\Workshop.UIMessagesModule\Bin\Debug\Workshop.UIMessagesModule.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="6/12/2014 7:34:36 PM">
+  <file source="C:\PrismTK_4.0\2-Dependency Injection\Exercise 1\End\Workshop.UIMessagesModule\obj\Debug\Workshop.UIMessagesModule.dll" archivePath="Workshop.UIMessagesModule.dll" lastWriteTime="6/12/2014 7:34:36 PM" />
+  <file source="C:\PrismTK_4.0\Lib\Microsoft.Practices.Prism.dll" archivePath="Microsoft.Practices.Prism.dll" lastWriteTime="11/15/2010 3:40:14 PM" />
+  <file source="C:\PrismTK_4.0\Lib\Microsoft.Practices.Unity.Silverlight.dll" archivePath="Microsoft.Practices.Unity.Silverlight.dll" lastWriteTime="6/28/2010 1:26:59 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="3/10/2011 12:08:16 AM" />
+  <file source="C:\PrismTK_4.0\Lib\Microsoft.Practices.ServiceLocation.dll" archivePath="Microsoft.Practices.ServiceLocation.dll" lastWriteTime="6/28/2010 1:26:59 PM" />
+  <file source="C:\PrismTK_4.0\2-Dependency Injection\Exercise 1\End\Workshop.UIMessagesModule\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="6/12/2014 7:34:36 PM" />
+</xapCache>

@@ -1,0 +1,24 @@
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\bin\Debug\DataBindingDemo.exe.config
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\bin\Debug\DataBindingDemo.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\bin\Debug\DataBindingDemo.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\MainWindow.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\MainWindow.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\App.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo_MarkupCompile.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo.g.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo.Properties.Resources.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo1.csproj.GenerateResource.Cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo1.csprojResolveAssemblyReference.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataBindingDemo_MarkupCompile.lref
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\CollectionBindingDemo.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\CollectionBindingDemo.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\COnvertorDemo.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataTemplateDemo.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\COnvertorDemo.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\DataTemplateDemo.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\DataBindingDemo\obj\Debug\Copy of COnvertorDemo.baml

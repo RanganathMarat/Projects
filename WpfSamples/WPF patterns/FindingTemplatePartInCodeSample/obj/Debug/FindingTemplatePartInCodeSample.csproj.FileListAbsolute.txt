@@ -1,0 +1,16 @@
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\bin\Debug\FindingTemplatePartInCodeSample.exe.config
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\bin\Debug\FindingTemplatePartInCodeSample.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\bin\Debug\FindingTemplatePartInCodeSample.pdb
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample.csprojResolveAssemblyReference.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\MainWindow.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\App.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample_MarkupCompile.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample_MarkupCompile.lref
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\MainWindow.baml
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\Themes\SampleControls.baml
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample.g.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample.Properties.Resources.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample.csproj.GenerateResource.Cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\FindingTemplatePartInCodeSample\obj\Debug\FindingTemplatePartInCodeSample.pdb

@@ -1,0 +1,39 @@
+﻿<Window x:Class="DataBindingDemo.CollectionBindingDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:models="clr-namespace:DataBindingDemo.Model"
+        Title="CollectionBindingDemo" Height="300" Width="300">
+    <!--<Window.Resources>
+        <ResourceDictionary>
+            <models:ImageRep x:Key="ImgRep"></models:ImageRep>
+        </ResourceDictionary>
+    </Window.Resources>-->
+    <Window.DataContext>
+        <models:ImageRep></models:ImageRep>
+    </Window.DataContext>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Left">
+            <ListView  Name="listView" ItemsSource="{Binding Path=imageRepository}" DisplayMemberPath="name" Margin="10"></ListView>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Left">
+            <Grid DataContext="{Binding ElementName=listView, Path=SelectedItem}">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Path" Margin="10"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Resolution" Margin="10"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Format" Margin="10"></TextBlock>
+                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=path}" ></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=resolution}"></TextBox>
+                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Path=format}"></TextBox>
+            </Grid>
+        </StackPanel>
+        
+    </DockPanel>
+</Window>

@@ -1,0 +1,17 @@
+C:\~Office\Workz\Projects\Drag-drop\First\bin\Debug\First.exe.config
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\First.exe
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\First.pdb
+C:\~Office\Workz\Projects\Drag-drop\First\bin\Debug\First.exe
+C:\~Office\Workz\Projects\Drag-drop\First\bin\Debug\First.pdb
+C:\~Office\Workz\Projects\Drag-drop\First\bin\Debug\First.exe.CodeAnalysisLog.xml
+C:\~Office\Workz\Projects\Drag-drop\First\bin\Debug\First.exe.lastcodeanalysissucceeded
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\DragDrop.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\MainWindow.g.cs
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\App.g.cs
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\First_MarkupCompile.cache
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\First_MarkupCompile.lref
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\MainWindow.baml
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\First.g.resources
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\First.Properties.Resources.resources
+C:\~Office\Workz\Projects\Drag-drop\First\obj\Debug\DragDrop.csproj.GenerateResource.Cache

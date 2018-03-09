@@ -1,0 +1,21 @@
+﻿<Window x:Class="DataBindingDemo.DataTemplateDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:models="clr-namespace:DataBindingDemo.Model"
+        Title="DataTemplateDemo" Height="300" Width="300">
+    <Window.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type models:Image}">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding Path=path}" Margin="5"></TextBlock>
+                </StackPanel>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.DataContext>
+        <models:ImageRep></models:ImageRep>
+    </Window.DataContext>
+    <StackPanel>
+        <ItemsControl ItemsSource="{Binding Path=imageRepository}"></ItemsControl>
+    </StackPanel>
+</Window>

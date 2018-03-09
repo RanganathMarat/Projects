@@ -1,0 +1,13 @@
+﻿<Window x:Class="DependencyProperty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyNamespace="clr-namespace:DependencyProperty"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <MyNamespace:MyControlViewModel></MyNamespace:MyControlViewModel>
+    </Window.DataContext>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <MyNamespace:MyControl  x:Name="myControl" TexBoxContent="default" LabelName="Something"></MyNamespace:MyControl>
+        <!--<MyNamespace:MyControl  x:Name="myControl1" TexBoxContent="{Binding Path=TextBoxString}"  LabelName="{Binding Path=LabelString}"></MyNamespace:MyControl>-->
+    </StackPanel>
+</Window>

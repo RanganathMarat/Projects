@@ -1,0 +1,8 @@
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\bin\Debug\InfraProtobuf.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\bin\Debug\InfraProtobuf.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\bin\Debug\protobuf-net.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\bin\Debug\protobuf-net.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\bin\Debug\protobuf-net.xml
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\obj\Debug\InfraProtobuf.csprojResolveAssemblyReference.cache
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\obj\Debug\InfraProtobuf.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\InfraProtobuf\obj\Debug\InfraProtobuf.pdb

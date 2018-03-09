@@ -1,0 +1,14 @@
+﻿<Window x:Class="FirstSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:EmptyStart.MarkupExtensions"
+        xmlns:local2="clr-namespace:FirstSample.MarkupExtensions"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Content>
+        <StackPanel>
+            <Label Content="{local:LabelContentProvider Culture1={local2:CultureProvider CultureName=en-US }}"></Label>
+            <Label Content="{local:LabelContentProvider Culture1={local2:CultureProvider CultureName=en-US }}"></Label>
+            <Label Content="{local:LabelContentProvider Culture1={local2:CultureProvider CultureName=en-US }}"></Label>
+        </StackPanel>
+    </Window.Content>
+</Window>

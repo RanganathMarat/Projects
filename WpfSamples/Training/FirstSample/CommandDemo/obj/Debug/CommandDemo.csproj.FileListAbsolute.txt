@@ -1,0 +1,13 @@
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\bin\Debug\CommandDemo.exe.config
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\bin\Debug\CommandDemo.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\bin\Debug\CommandDemo.pdb
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\CommandDemo.csprojResolveAssemblyReference.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\MainWindow.baml
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\MainWindow.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\App.g.cs
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\CommandDemo_MarkupCompile.cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\CommandDemo.g.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\CommandDemo.Properties.Resources.resources
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\CommandDemo.csproj.GenerateResource.Cache
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\CommandDemo.exe
+D:\Workz\Projects\WpfSamples\Training\FirstSample\CommandDemo\obj\Debug\CommandDemo.pdb

@@ -1,0 +1,11 @@
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\bin\x64\Debug\HostWinForms.exe.config
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\bin\x64\Debug\HostWinForms.exe
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\bin\x64\Debug\HostWinForms.pdb
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\bin\x64\Debug\WPFCustomControl.dll
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\bin\x64\Debug\WPFCustomControl.pdb
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\obj\x64\Debug\HostWinForms.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\obj\x64\Debug\HostWinForms.Form1.resources
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\obj\x64\Debug\HostWinForms.Properties.Resources.resources
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\obj\x64\Debug\HostWinForms.csproj.GenerateResource.Cache
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\obj\x64\Debug\HostWinForms.exe
+C:\~Office\Workz\Projects\HostWPFinWinforms\HostWinForms\obj\x64\Debug\HostWinForms.pdb

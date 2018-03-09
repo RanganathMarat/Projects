@@ -1,0 +1,12 @@
+﻿<Window x:Class="_5._4WinformInterOp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:winform="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <WindowsFormsHost Height="100">
+            <winform:PropertyGrid x:Name="WinformPG" Height="100" Width="100" Text="bla"></winform:PropertyGrid>
+        </WindowsFormsHost>
+
+    </StackPanel>
+</Window>

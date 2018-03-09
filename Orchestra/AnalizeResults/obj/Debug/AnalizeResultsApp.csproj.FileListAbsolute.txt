@@ -1,0 +1,11 @@
+D:\Rabi\Projects\Orchestra\build_output\AnalizeResultsApp.exe.config
+D:\Rabi\Projects\Orchestra\build_output\AnalizeResultsApp.XML
+D:\Rabi\Projects\Orchestra\build_output\AnalizeResultsApp.exe
+D:\Rabi\Projects\Orchestra\build_output\AnalizeResultsApp.pdb
+D:\Rabi\Projects\Orchestra\AnalizeResults\obj\Debug\AnalizeResultsApp.csprojResolveAssemblyReference.cache
+D:\Rabi\Projects\Orchestra\AnalizeResults\obj\Debug\AnalizeResultsApp.Analize.resources
+D:\Rabi\Projects\Orchestra\AnalizeResults\obj\Debug\AnalizeResultsApp.Properties.Resources.resources
+D:\Rabi\Projects\Orchestra\AnalizeResults\obj\Debug\AnalizeResultsApp.csproj.GenerateResource.Cache
+D:\Rabi\Projects\Orchestra\AnalizeResults\obj\Debug\AnalizeResultsApp.exe
+D:\Rabi\Projects\Orchestra\AnalizeResults\obj\Debug\AnalizeResultsApp.pdb
+D:\Rabi\Projects\Orchestra\build_output\libzmq.dll

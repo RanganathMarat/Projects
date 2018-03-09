@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:this="clr-namespace:FindingTemplatePartInCodeSample">
+    <ControlTemplate x:Key="TheTemplateForEditableTextAndLabelControl"
+                     TargetType="this:EditableTextAndLabelControl">
+        <StackPanel Orientation="{Binding Path=TheOrientation, RelativeSource={RelativeSource TemplatedParent}}">
+            <TextBlock x:Name="TheLabelTextBlock"
+                       Text="{Binding Path=TheLabel, RelativeSource={RelativeSource AncestorType=this:EditableTextAndLabelControl}}"
+                       VerticalAlignment="Bottom" />
+
+            <TextBox x:Name="TheEditableTextTextBox"
+                     Grid.Column="1"
+                     Width="100"
+                     Text="{Binding Path=TheEditableText, 
+                                    RelativeSource={RelativeSource AncestorType=this:EditableTextAndLabelControl}}"
+                     VerticalAlignment="Bottom"
+                     Margin="10,0,10,0" />
+
+            <Button x:Name="PART_SaveButton"
+                    Content="Save"
+                    Width="70"
+                    Grid.Column="2"
+                    VerticalAlignment="Bottom" />
+        </StackPanel>
+    </ControlTemplate>
+
+    <!-- Style for EditableTextAndLabelControl (this is a default style for the 
+        control - a style without a resource key) -->
+    <Style TargetType="this:EditableTextAndLabelControl">
+        <Setter Property="Template"
+                Value="{StaticResource TheTemplateForEditableTextAndLabelControl}" />
+    </Style>
+    </ResourceDictionary>

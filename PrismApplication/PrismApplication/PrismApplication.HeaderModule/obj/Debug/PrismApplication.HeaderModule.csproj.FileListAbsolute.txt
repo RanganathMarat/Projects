@@ -1,0 +1,4 @@
+E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.HeaderModule\bin\Debug\PrismApplication.HeaderModule.dll
+E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.HeaderModule\bin\Debug\PrismApplication.HeaderModule.pdb
+E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.HeaderModule\obj\Debug\PrismApplication.HeaderModule.dll
+E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.HeaderModule\obj\Debug\PrismApplication.HeaderModule.pdb

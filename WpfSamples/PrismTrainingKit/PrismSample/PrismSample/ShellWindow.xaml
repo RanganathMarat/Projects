@@ -1,0 +1,13 @@
+﻿<Window x:Class="PrismSample.ShellWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:prism="http://www.codeplex.com/CompositeWPF"
+                   Height="300" Width="300">
+    <StackPanel>
+        <TextBlock Text="Welcome to Prism"></TextBlock>
+        <ContentControl prism:RegionManager.RegionName="EMPVIEW"></ContentControl>
+        <ContentControl prism:RegionManager.RegionName="PROJECTVIEW"></ContentControl>
+        <ContentControl prism:RegionManager.RegionName="TestView"></ContentControl>
+    </StackPanel>
+    
+</Window>

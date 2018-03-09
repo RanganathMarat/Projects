@@ -1,0 +1,65 @@
+﻿<Window x:Class="MultipleTemplatePartsSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:this="clr-namespace:MultipleTemplatePartsSample"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+        Title="MainWindow"
+        Height="350"
+        Width="525">
+    <Window.Resources>
+        <ControlTemplate x:Key="MyHeaderTemplate1">
+            <Grid Height="50" 
+                  Background="Yellow">
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Button to Click"
+                            Height="25" 
+                            Width="120"
+                            Margin="5,0">
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <ei:CallMethodAction TargetObject="{Binding RelativeSource={RelativeSource AncestorType=this:MyTestControlWithHeader}}"
+                                                     MethodName="LogClickEvent" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </ControlTemplate>
+        
+        <ControlTemplate x:Key="MyMainTemplate1">
+            <Grid Background="Green">
+                <TextBlock x:Name="LogText"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Foreground="Black"
+                           Text="{Binding Path=EventLog, RelativeSource={RelativeSource AncestorType=this:MyTestControlWithHeader}}" />
+            </Grid>
+        </ControlTemplate>
+        
+        <Style TargetType="this:MyTestControlWithHeader">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="this:MyTestControlWithHeader">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Control x:Name="HeaderControl"
+                                     Template="{Binding Path=HeaderTemplate, RelativeSource={RelativeSource TemplatedParent}}" />
+
+                            <Control x:Name="MainControl"
+                                     Grid.Row="1"
+                                     Template="{Binding Path=MainTemplate, RelativeSource={RelativeSource TemplatedParent}}" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <this:MyTestControlWithHeader HeaderTemplate="{StaticResource MyHeaderTemplate1}"
+                                      MainTemplate="{StaticResource MyMainTemplate1}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+FileName = Sine 1 8
+# Method 1
+Start
+Sine a:1 f:8 c:Blue
+End 10000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

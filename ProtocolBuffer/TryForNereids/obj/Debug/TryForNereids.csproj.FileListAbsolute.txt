@@ -1,0 +1,9 @@
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\bin\Debug\TryForNereids.exe.config
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\bin\Debug\TryForNereids.exe
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\bin\Debug\TryForNereids.pdb
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\bin\Debug\protobuf-net.dll
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\bin\Debug\protobuf-net.pdb
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\bin\Debug\protobuf-net.xml
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\obj\Debug\TryForNereids.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\obj\Debug\TryForNereids.exe
+C:\~Office\Workz\Projects\ProtocolBuffer\TryForNereids\obj\Debug\TryForNereids.pdb

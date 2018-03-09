@@ -1,0 +1,12 @@
+﻿<Window
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Window.Content>
+    <StackPanel>
+      <StackPanel.Children>
+        <Label Content="Randomness" Height="30" Width="100"></Label>
+        <TextBox Height="30" Width="100"></TextBox>
+        <Button Content="Search" Height="30" Width="100"></Button>
+      </StackPanel.Children>
+    </StackPanel>
+  </Window.Content>
+</Window>

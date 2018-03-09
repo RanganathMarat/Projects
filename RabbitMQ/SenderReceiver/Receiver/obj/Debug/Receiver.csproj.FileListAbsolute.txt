@@ -1,0 +1,8 @@
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\bin\Debug\Receiver.exe.config
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\bin\Debug\Receiver.exe
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\bin\Debug\Receiver.pdb
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\bin\Debug\RabbitMQ.Client.dll
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\bin\Debug\RabbitMQ.Client.xml
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\obj\Debug\Receiver.csprojResolveAssemblyReference.cache
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\obj\Debug\Receiver.exe
+D:\Workz\Projects\RabbitMQ\SenderReceiver\Receiver\obj\Debug\Receiver.pdb

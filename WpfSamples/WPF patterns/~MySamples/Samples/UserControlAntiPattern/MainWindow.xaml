@@ -1,0 +1,16 @@
+﻿<Window x:Class="UserControlAntiPattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:own="clr-namespace:UserControlAntiPattern"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <own:EditableTextAndLabelControl  LabelText="FirstControl" x:Name="FirstControl" Grid.Row="0"></own:EditableTextAndLabelControl>
+        <own:EditableTextAndLabelControl  LabelText="SecondControl" x:Name="SecondControl" Grid.Row="1"></own:EditableTextAndLabelControl>
+        <TextBlock Name="OutputBlock" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></TextBlock>
+    </Grid>
+</Window>

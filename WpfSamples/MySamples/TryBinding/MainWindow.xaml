@@ -1,0 +1,28 @@
+﻿<Window x:Class="TryBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TryBinding"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:PersonViewModel></local:PersonViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0">First Name</Label>
+        <Label Grid.Row="1" Grid.Column="0">Last Name</Label>
+        <Label Grid.Row="3" Grid.Column="0">Full Name</Label>
+        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=FirstName, Mode=OneWayToSource}" Margin="0.8,0,-0.6,80.6" Grid.RowSpan="2"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=LastName,Mode=OneWayToSource}"></TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Path=FullName, Mode=OneWay}"></TextBox>
+        <Button Grid.Row="2" Grid.ColumnSpan="2" Command="{Binding Path=MergeName}">Apply</Button>
+    </Grid>
+</Window>

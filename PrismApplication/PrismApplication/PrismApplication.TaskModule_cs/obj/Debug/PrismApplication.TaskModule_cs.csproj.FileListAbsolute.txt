@@ -1,0 +1,12 @@
+D:\VSNET\Prism\PrismApplication\PrismApplication\bin\Debug\PrismApplication.TaskModule_cs.dll
+D:\VSNET\Prism\PrismApplication\PrismApplication\bin\Debug\PrismApplication.TaskModule_cs.pdb
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\PrismApplication.TaskModule_cs.csprojResolveAssemblyReference.cache
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\PrismApplication.TaskModule_cs.dll
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\PrismApplication.TaskModule_cs.pdb
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\PrismApplication.TaskModule_cs_MarkupCompile.cache
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\PrismApplication.TaskModule_cs_MarkupCompile.lref
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\TaskContainerView.g.cs
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\TaskContainerView.baml
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\PrismApplication.TaskModule_cs.g.resources
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\TaskHeaderView.g.cs
+D:\VSNET\Prism\PrismApplication\PrismApplication.TaskModule_cs\obj\Debug\TaskHeaderView.baml

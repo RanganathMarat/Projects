@@ -1,0 +1,17 @@
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\bin\Debug\MultipleTemplatePartsSample.exe.config
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\bin\Debug\MultipleTemplatePartsSample.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\bin\Debug\MultipleTemplatePartsSample.pdb
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample.csprojResolveAssemblyReference.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MainWindow.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\App.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample_MarkupCompile.cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample_MarkupCompile.lref
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MainWindow.baml
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample.g.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample.Properties.Resources.resources
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample.csproj.GenerateResource.Cache
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample.exe
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\obj\Debug\MultipleTemplatePartsSample.pdb
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\IDEAS\articles\WPF_PATTERNS\CODE\MultipleTemplatePartsSample\bin\Debug\System.Windows.Interactivity.dll

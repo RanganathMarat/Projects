@@ -1,0 +1,4 @@
+C:\PrismTK_4.0\7-Navigation\Exercise 1\End\View-BasedNavigation.Web\bin\View-BasedNavigation.Web.dll
+C:\PrismTK_4.0\7-Navigation\Exercise 1\End\View-BasedNavigation.Web\bin\View-BasedNavigation.Web.pdb
+C:\PrismTK_4.0\7-Navigation\Exercise 1\End\View-BasedNavigation.Web\obj\Debug\View-BasedNavigation.Web.dll
+C:\PrismTK_4.0\7-Navigation\Exercise 1\End\View-BasedNavigation.Web\obj\Debug\View-BasedNavigation.Web.pdb

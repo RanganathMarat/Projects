@@ -1,0 +1,10 @@
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\VersioningService.XML
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\VersioningService.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\VersioningService.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\InfraProtobuf.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\protobuf-net.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\InfraProtobuf.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\protobuf-net.pdb
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\bin\Debug\protobuf-net.xml
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\obj\Debug\VersioningService.dll
+C:\~Office\1-Project\1-Console\2-Simplified UI\Code\interfaces\PhilipsMR\VersioningService\obj\Debug\VersioningService.pdb

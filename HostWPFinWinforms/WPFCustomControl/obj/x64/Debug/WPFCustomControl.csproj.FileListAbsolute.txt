@@ -1,0 +1,11 @@
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\bin\x64\Debug\WPFCustomControl.dll
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\bin\x64\Debug\WPFCustomControl.pdb
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\UserControl1.baml
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\UserControl1.g.cs
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl_MarkupCompile.cache
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.g.resources
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.Properties.Resources.resources
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.csproj.GenerateResource.Cache
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.dll
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.pdb
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.csprojResolveAssemblyReference.cache

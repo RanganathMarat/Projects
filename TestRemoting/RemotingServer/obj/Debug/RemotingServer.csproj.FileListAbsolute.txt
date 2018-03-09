@@ -1,0 +1,13 @@
+D:\Workz\Projects\WpfSamples\TestRemoting\RemotingServer\bin\Debug\RemotingServer.exe.config
+D:\Workz\Projects\WpfSamples\TestRemoting\RemotingServer\bin\Debug\RemotingServer.exe
+D:\Workz\Projects\WpfSamples\TestRemoting\RemotingServer\bin\Debug\RemotingServer.pdb
+D:\Workz\Projects\WpfSamples\TestRemoting\RemotingServer\obj\Debug\RemotingServer.exe
+D:\Workz\Projects\WpfSamples\TestRemoting\RemotingServer\obj\Debug\RemotingServer.pdb
+C:\~Office\Workz\Projects\TestRemoting\RemotingServer\bin\Debug\RemotingServer.exe.config
+C:\~Office\Workz\Projects\TestRemoting\RemotingServer\bin\Debug\RemotingServer.exe
+C:\~Office\Workz\Projects\TestRemoting\RemotingServer\bin\Debug\RemotingServer.pdb
+C:\~Office\Workz\Projects\TestRemoting\Output\RemotingServer.exe.config
+C:\~Office\Workz\Projects\TestRemoting\Output\RemotingServer.exe
+C:\~Office\Workz\Projects\TestRemoting\Output\RemotingServer.pdb
+C:\~Office\Workz\Projects\TestRemoting\RemotingServer\obj\Debug\RemotingServer.exe
+C:\~Office\Workz\Projects\TestRemoting\RemotingServer\obj\Debug\RemotingServer.pdb
