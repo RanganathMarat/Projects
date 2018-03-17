@@ -13,3 +13,7 @@ C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.ServiceLocatio
 C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.Unity.xml
 C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\~Office\Workz\Projects\TestCharp\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml

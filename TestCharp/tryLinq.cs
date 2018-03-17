@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace TestCharp
 {
@@ -35,6 +33,31 @@ namespace TestCharp
             
             //items.Distinct();
             i.Distinct();
+        }
+
+        public static void TryDelegateInLinq()
+        {
+            ArrayList items = new ArrayList() {@"C:\abc\", @"C:\temp\", @"C:\mno\" };
+            if ((from string item in items where File.Exists(item+"test.txt") select item).FirstOrDefault<string>() == null)
+            {
+                Console.WriteLine("Failed to find");
+            }
+            else
+            {
+                Console.WriteLine("Found!!");
+            }
+            string pluginConfigurationFilePath = "test.txt";
+            string configPath = @"C:\abc\;C:\temp\;C:\mno\";
+            string[] test = configPath.Split(':');
+            string configFileFullPath = (from string path in configPath?.Split(';')
+                where File.Exists(path + pluginConfigurationFilePath)
+                select path).FirstOrDefault();
+            Console.WriteLine(configFileFullPath?.Insert(configFileFullPath.Length, pluginConfigurationFilePath));
+            Console.WriteLine((configPath?.Split(';')).FirstOrDefault(path => File.Exists(path + pluginConfigurationFilePath)) +
+                              pluginConfigurationFilePath);
+            Console.WriteLine(File.Exists(null).ToString());
+            Console.WriteLine((int)(Math.Truncate(99.9)));
+
         }
     }
 }

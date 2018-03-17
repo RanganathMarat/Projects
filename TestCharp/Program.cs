@@ -17,10 +17,13 @@ namespace TestCharp
             //TryTraceLog.LogMessages();
             //TryTraceLog.TraceWithTraceSource();
             //TryLinq.Func();
+            //TryLinq.TryDelegateInLinq();
             //string[] list = new string[] {"as", "fg", "fhg" };
             //TryWindow.Start();
             //Console.WriteLine(TryMisc.TryDateParse());
-            TryUnity.StartTryUnity();
+            TryMisc.TryOverride();
+            //TryUnity.StartTryUnity();
+            //TryUnity.TryUnityInterceptor();           
             //Console.WriteLine(TestConstants.Text1);
             //Console.WriteLine(TestConstants.Text2);
         }
