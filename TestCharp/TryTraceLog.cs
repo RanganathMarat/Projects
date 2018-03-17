@@ -7,8 +7,7 @@ using System.Diagnostics;
 
 namespace TestCharp
 {
-
-    static class TryTraceLog
+    internal static class TryTraceLog
     {
 
         public static void TraceWithTraceSource()
