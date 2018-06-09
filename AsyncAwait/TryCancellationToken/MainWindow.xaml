@@ -9,11 +9,11 @@
     <Grid>
         <Button x:Name="StartButton" Content="Start Parsing" HorizontalAlignment="Left" Margin="45,184,0,0" VerticalAlignment="Top" Width="161" Height="32" Click="OnStartParsing"/>
         <Button x:Name="CancelButton" IsEnabled="{Binding Path=MakeCancelVisible, RelativeSource={RelativeSource AncestorType=Window}}"  Content="Cancel Operation" HorizontalAlignment="Left" Margin="312,184,0,0" VerticalAlignment="Top" Width="149" Height="32" Click="OnCancelOperation"/>
-        <Label x:Name="ExplorerContentLabel" Content="Contents" HorizontalAlignment="Left" Margin="45,84,0,0" VerticalAlignment="Top" Height="32" Width="91"/>
+        <Label x:Name="ExplorerContentLabel" Content="Time -- Thread ID" HorizontalAlignment="Left" Margin="29,84,0,0" VerticalAlignment="Top" Height="32" Width="107"/>
         <Border BorderThickness="1" BorderBrush="Black" Margin="154,84,57.4,206.4">
             <TextBlock x:Name="ExplorerContentTextBlock" HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="307" />
         </Border>
-        <Label x:Name="ProgressLabel" Content="Label" HorizontalAlignment="Left" Margin="45,254,0,0" VerticalAlignment="Top" Width="69"/>
-        <TextBox x:Name="ProgressTextBox" HorizontalAlignment="Left" Height="23" Margin="154,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="ProgressLabel" Content="Progress -- ThreadID" HorizontalAlignment="Left" Margin="45,254,0,0" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="ProgressTextBox" HorizontalAlignment="Left" Height="23" Margin="221,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

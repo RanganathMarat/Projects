@@ -1,0 +1,8 @@
+C:\~Office\Workz\Projects\SnakeAndLadderTests\bin\Debug\SnakeAndLadderTests.dll
+C:\~Office\Workz\Projects\SnakeAndLadderTests\bin\Debug\SnakeAndLadderTests.pdb
+C:\~Office\Workz\Projects\SnakeAndLadderTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\~Office\Workz\Projects\SnakeAndLadderTests\obj\Debug\SnakeAndLadderTests.dll
+C:\~Office\Workz\Projects\SnakeAndLadderTests\obj\Debug\SnakeAndLadderTests.pdb
+C:\~Office\Workz\Projects\SnakeAndLadderTests\bin\Debug\SnakeAndLadder.exe
+C:\~Office\Workz\Projects\SnakeAndLadderTests\bin\Debug\SnakeAndLadder.pdb
+C:\~Office\Workz\Projects\SnakeAndLadderTests\obj\Debug\SnakeAndLadderTests.csprojResolveAssemblyReference.cache

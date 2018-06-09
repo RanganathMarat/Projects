@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace First
@@ -10,7 +11,7 @@ namespace First
     {
         private static async Task<string> Display(string name)
         {
-            Log(String.Format("Display() 1: {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
+            Log($"Display() 1: {System.Threading.Thread.CurrentThread.ManagedThreadId}");
             await Task.Delay(3000);
 
             // A thread sleep is not an awaitable method. Adding a sleep makes the whole aync-await irrelevant.
@@ -25,14 +26,18 @@ namespace First
             //    Log("Task Complete");
             //});
             //Log(String.Format("Display() 2: TaskScheduler.Current.Id {0}", TaskScheduler.Current.Id));
-            Log(String.Format("Display() 2: {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
+            Log($"Display() 2: {System.Threading.Thread.CurrentThread.ManagedThreadId}");
             return "Hello " + name;
         }
         private static async Task<string> Caller()
         {
-            Log(String.Format("Caller(): Before {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
-            string addressDisplay = await Display("Bla");
-            Log(String.Format("Caller(): After {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
+            Log($"Caller(): Before 0 {System.Threading.Thread.CurrentThread.ManagedThreadId}");
+            //await Task.Yield();
+            Log($"Caller(): Before 1 {System.Threading.Thread.CurrentThread.ManagedThreadId}");
+            string addressDisplay = await Display("Bla").ConfigureAwait(continueOnCapturedContext:false);
+            //await Task.Yield();
+            Log($"{SynchronizationContext.Current?.ToString()}");
+            Log($"Caller(): After {System.Threading.Thread.CurrentThread.ManagedThreadId}");
             //string addressDisplay = await address;
             //Log(String.Format("Caller(2): {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
             Log("Exiting Caller() " + addressDisplay);
@@ -45,21 +50,24 @@ namespace First
 
         private static Task<string> FirstCaller()
         {
-            Log(String.Format("FirstCaller(): Before {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
+            Log($"FirstCaller(): Before {System.Threading.Thread.CurrentThread.ManagedThreadId}");
             var returnvalue = Caller();
-            returnvalue.Wait();
+            returnvalue.Wait();            
             //Log(String.Format("FirstCaller(): Return Value {0}", returnvalue));
-            Log(String.Format("FirstCaller(): After {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
+            Log($"FirstCaller(): After {System.Threading.Thread.CurrentThread.ManagedThreadId}");
             return returnvalue;
         }
 
         static void Main(string[] args)
         {
             Console.WriteLine(System.Security.Principal.WindowsIdentity.GetCurrent().Name);
-            Log(String.Format("Main(): Before {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
+            Log($"Main(): Before {System.Threading.Thread.CurrentThread.ManagedThreadId}");
+            SynchronizationContext sync = new SynchronizationContext();
+            SynchronizationContext.SetSynchronizationContext(sync);
             var returnvalue = FirstCaller();
-            //Log(String.Format("Main(): Return Value {0}", returnvalue.GetAwaiter().GetResult()));
-            Log(String.Format("Main(): After {0}", System.Threading.Thread.CurrentThread.ManagedThreadId));
+            //TestDelegates.TestExecute();
+            Log($"Main(): Return Value {returnvalue.GetAwaiter().GetResult()}");
+            Log($"Main(): After {System.Threading.Thread.CurrentThread.ManagedThreadId}");
             Console.ReadKey();
         }
     }

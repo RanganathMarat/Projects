@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Runtime.Remoting.Messaging;
 
 namespace TestCharp
 {
@@ -37,6 +38,7 @@ namespace TestCharp
         }
     }
 
+
     internal interface IWhatever
     {
         void Display();
@@ -45,6 +47,12 @@ namespace TestCharp
 
     internal abstract class WhateverAbstract : IWhatever
     {
+        protected string Name { get; set; }
+
+        protected void SetName()
+        {
+            Name = "AbstractTemporary";}
+
         public virtual void Display()
         {
             Console.WriteLine("Inside ABSTRACT::Display");
@@ -52,9 +60,10 @@ namespace TestCharp
 
         public abstract void Silly();
     }
-
+    internal enum TestEnum { One = 1, Two };
     internal class WhateverConcrete : WhateverAbstract
     {
+        
         public override void Silly()
         {
             Console.WriteLine("CONCRETE::Silly()");
@@ -62,7 +71,8 @@ namespace TestCharp
 
         public override void Display()
         {
-            Console.WriteLine("Inside CONCRETE::Display()");
+            SetName();
+            Console.WriteLine($"Inside CONCRETE::Display() - {Name}");
         }
     }
 }
