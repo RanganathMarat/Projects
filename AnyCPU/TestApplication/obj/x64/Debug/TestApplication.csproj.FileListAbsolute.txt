@@ -1,0 +1,8 @@
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\x64\Debug\TestApplication.exe.config
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\x64\Debug\TestApplication.exe
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\x64\Debug\TestApplication.pdb
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\x64\Debug\TestDll.dll
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\x64\Debug\TestDll.pdb
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\obj\x64\Debug\TestApplication.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\obj\x64\Debug\TestApplication.exe
+C:\~Office\Workz\Projects\AnyCPU\TestApplication\obj\x64\Debug\TestApplication.pdb

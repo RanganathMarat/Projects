@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.5.14.0" projectFile="C:\~Office\Workz\Projects\Sandcastle Projects\First_Test.shfbproj" started="5/23/2018 5:02:59 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.5.14.0" projectFile="C:\~Office\Workz\Projects\Sandcastle Projects\Documentation.shfbproj" started="6/10/2018 3:47:39 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -16,9 +16,6 @@ Lightweight Website Style Version 2018.5.14.0
 Copyright &#169; 2006-2018, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
-<buildStep step="ClearWorkFolder">
-Clearing working folder...
-</buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
 Source: C:\~Office\Workz\Projects\SnakeAndLadder\bin\Debug\SnakeAndLadder.exe
@@ -28,16 +25,16 @@ SHFB: Warning BE0062: No documentation source XML comments files found.  The hel
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0469
+</plugIn>    Last step completed in 00:00:00.0360
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 5/23/2018 5:03:02 PM.
+Build started 6/10/2018 3:47:42 PM.
 Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -47,7 +44,7 @@ GenerateRefInfo:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 1 namespaces, 1 types, and 1 members
+  Wrote information on 1 namespaces, 5 types, and 8 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2018.5.14.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
@@ -57,13 +54,13 @@ Done Building Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\W
 
 Build succeeded.
 
-Time Elapsed 00:00:00.78
-    Last step completed in 00:00:01.3218
+Time Elapsed 00:00:01.15
+    Last step completed in 00:00:01.6001
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 5/23/2018 5:03:03 PM.
+Build started 6/10/2018 3:47:43 PM.
 Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.5.14.0)
@@ -83,26 +80,26 @@ Done Building Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\W
 
 Build succeeded.
 
-Time Elapsed 00:00:01.00
-    Last step completed in 00:00:01.1802
+Time Elapsed 00:00:00.54
+    Last step completed in 00:00:00.7726
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0313
+    Last step completed in 00:00:00.0160
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 5/23/2018 5:03:04 PM.
+Build started 6/10/2018 3:47:44 PM.
 Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.5.14.0)
@@ -113,53 +110,65 @@ Done Building Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\W
 
 Build succeeded.
 
-Time Elapsed 00:00:00.15
+Time Elapsed 00:00:00.13
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3281
+    Last step completed in 00:00:00.3002
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4219
+    Last step completed in 00:00:00.2782
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 5/23/2018 5:03:05 PM.
+Build started 6/10/2018 3:47:44 PM.
 Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.5.14.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   Loading configuration...
-  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;C:\Users\ing02494\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
   Processing topics...
 BuildAssembler : warning : ShowMissingComponent: [N:SnakeAndLadder] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:SnakeAndLadder.Dice] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Dice.Roll] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Dice.Roll] Missing &lt;returns&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
-  Processed 4 topic(s)
-  4 warning(s)
+BuildAssembler : warning : ShowMissingComponent: [T:SnakeAndLadder.IPlayer] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SnakeAndLadder.IPlayer.GridPosition] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SnakeAndLadder.Ladder] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Ladder.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;lowestRung&quot;/&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Ladder.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;highestRung&quot;/&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Ladder.Escalate(SnakeAndLadder.IPlayer)] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Ladder.Escalate(SnakeAndLadder.IPlayer)] Missing &lt;param name=&quot;player&quot;/&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SnakeAndLadder.Player] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SnakeAndLadder.Player.GridPosition] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SnakeAndLadder.Snake] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Snake.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;head&quot;/&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Snake.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;tail&quot;/&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Snake.Bite(SnakeAndLadder.IPlayer)] Missing &lt;summary&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SnakeAndLadder.Snake.Bite(SnakeAndLadder.IPlayer)] Missing &lt;param name=&quot;player&quot;/&gt; documentation [C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj]
+  Processed 20 topic(s)
+  18 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
-  ResolveReferenceLinksComponent: 2 entries added to the MSDN content ID cache.  New cache size: 2 entries
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:11.39
-    Last step completed in 00:00:11.6420
+Time Elapsed 00:00:08.56
+    Last step completed in 00:00:08.7743
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -171,11 +180,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Output\HtmlHelp1
-Processed 4 HTML files
+Processed 20 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Documentation.hhc
-    Last step completed in 00:00:00.3594
+    Last step completed in 00:00:00.3693
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -241,7 +250,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:00.5704
+    Last step completed in 00:00:00.4853
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -253,7 +262,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -270,11 +279,11 @@ Compiling HTML Help 1 file...
   
   Compile time: 0 minutes, 0 seconds
   
-  6	Topics
+  22	Topics
   
-  31	Local links
+  182	Local links
   
-  2	Internet links
+  95	Internet links
   
   0	Graphics
   
@@ -282,19 +291,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Output\HtmlHelp1\Documentation.chm, 53,633 bytes
+  Created c:\~Office\Workz\Projects\Sandcastle Projects\Help\Working\Output\HtmlHelp1\Documentation.chm, 66,529 bytes
   
-  Compression decreased file by 56,612 bytes.
+  Compression decreased file by 167,714 bytes.
   
-    Last step completed in 00:00:01.6360
+    Last step completed in 00:00:01.4053
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0938
+    Last step completed in 00:00:00.0701
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 5/23/2018 5:03:19 PM.  Total time: 00:00:19.4903
+Build completed successfully at 6/10/2018 3:47:55 PM.  Total time: 00:00:16.3371
 
 </buildStep>
 </shfbBuild>

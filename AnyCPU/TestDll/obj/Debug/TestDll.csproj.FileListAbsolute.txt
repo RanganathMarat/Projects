@@ -1,0 +1,4 @@
+C:\~Office\Workz\Projects\AnyCPU\TestDll\bin\Debug\TestDll.dll
+C:\~Office\Workz\Projects\AnyCPU\TestDll\bin\Debug\TestDll.pdb
+C:\~Office\Workz\Projects\AnyCPU\TestDll\obj\Debug\TestDll.dll
+C:\~Office\Workz\Projects\AnyCPU\TestDll\obj\Debug\TestDll.pdb
