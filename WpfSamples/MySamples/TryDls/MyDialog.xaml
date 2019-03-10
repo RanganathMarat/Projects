@@ -31,7 +31,7 @@
                        TextWrapping="Wrap"
                        Width="300" Margin="20,0,0,24"
                        Style="{DynamicResource DialogTextBlockStyle}"
-                       AutomationProperties.AutomationId="DialogTextMessage"/>
+                       AutomationProperties.AutomationId="DialogTextMessage" />
             <Separator x:Name="DialogSeparator" VerticalAlignment="Bottom" Margin="0,12,0,12"/>
             <Button x:Name="DialogOkButton" 
                     HorizontalAlignment="Right"

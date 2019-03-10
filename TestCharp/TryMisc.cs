@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Runtime.Remoting.Messaging;
 
@@ -13,6 +15,7 @@ namespace TestCharp
             {
                 return DateTime.MinValue;
             }
+
             DateTime dateTime = DateTime.MinValue;
             try
             {
@@ -27,7 +30,8 @@ namespace TestCharp
             {
                 // Log the failure
             }
-            return dateTime; 
+
+            return dateTime;
         }
 
         internal static void TryOverride()
@@ -36,9 +40,21 @@ namespace TestCharp
             whatever.Display();
             whatever.Silly();
         }
+
+        internal static void TryObservableCollection()
+        {
+            IReadOnlyList<double> list = new List<double>{2,2,2};
+            string bla = "First";
+            ObservableCollection<Person> collection = new ObservableCollection<Person>();
+            collection.CollectionChanged +=
+                (sender, e) => { Console.WriteLine($"{((Person)(e.NewItems[0])).FirstName}"); };
+            var person = new Person(){FirstName = "Alistair", LastName = "Maclean"};
+            collection.Add(person);
+            collection[0].FirstName = "NotAlistair";
+        }
     }
 
-
+    #region TryOverride
     internal interface IWhatever
     {
         void Display();
@@ -75,4 +91,23 @@ namespace TestCharp
             Console.WriteLine($"Inside CONCRETE::Display() - {Name}");
         }
     }
+
+    internal class WhateverDoubleConcrete : WhateverConcrete
+    {
+        public WhateverDoubleConcrete(string name)
+        {
+            Name = name;
+        }
+    }
+    #endregion
+
+    #region TryObeservableCollection
+
+    internal class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
+    #endregion
+
 }

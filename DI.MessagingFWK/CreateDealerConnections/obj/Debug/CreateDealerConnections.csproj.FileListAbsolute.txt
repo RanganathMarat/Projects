@@ -1,0 +1,8 @@
+C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Output\CreateDealerConnections.exe.config
+C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Output\CreateDealerConnections.exe
+C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Output\CreateDealerConnections.pdb
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\Debug\CreateDealerConnections.csprojAssemblyReference.cache
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\Debug\CreateDealerConnections.csproj.CoreCompileInputs.cache
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\Debug\CreateDealerConnections.csproj.CopyComplete
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\Debug\CreateDealerConnections.exe
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\Debug\CreateDealerConnections.pdb

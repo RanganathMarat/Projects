@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="e360308f-b2e6-45d4-ae37-a7883c9163a0" Title="SnakeAndLadder" Url="html/dc2cc965-9ba0-821a-3ded-a5570b774c36.htm">
+    <HelpTOCNode Id="7789f9b7-57cc-423f-a820-55b175478058" Title="Dice Class" Url="html/2ed46c37-c564-7ffb-afc0-bfc30cd66e0d.htm">
+      <HelpTOCNode Id="14e4a88c-7355-41b2-99e1-6eb4366b66e2" Title="Dice Methods" Url="html/aa148f95-b432-8b55-2705-023a5c3701b8.htm">
+        <HelpTOCNode Title="Roll Method " Url="html/5e6d3889-20ec-b3ab-ef62-d03ed2af9b5f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d5e6c225-7866-4f6d-9020-caf9d3b28330" Title="IPlayer Interface" Url="html/35d4c337-6df9-f3de-24bb-412f7c5d4b87.htm">
+      <HelpTOCNode Id="ec4ffec3-c22c-4fed-8c18-7a18f1e09740" Title="IPlayer Properties" Url="html/699c979d-c871-9672-f995-b2692b874453.htm">
+        <HelpTOCNode Title="GridPosition Property " Url="html/968b9422-76d5-08d4-b9f9-119a81880c12.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6bd5a59c-34de-4a1c-9d17-400c2bb13451" Title="Ladder Class" Url="html/8e481a55-2c19-15fe-fbcb-9b779704b6f4.htm">
+      <HelpTOCNode Title="Ladder Constructor " Url="html/6aa828ff-1778-4990-33c7-020cc750b282.htm" />
+      <HelpTOCNode Id="82c44078-14b2-43f4-ac22-025a1341653d" Title="Ladder Methods" Url="html/4933cb5b-423f-2545-7839-b1bbbda9ae07.htm">
+        <HelpTOCNode Title="Escalate Method " Url="html/0d86fe81-3d46-d65a-291c-d09733a04e4e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="df0ded6e-2c58-400d-b8ba-a2debc875982" Title="Player Class" Url="html/bf13767c-df55-baf9-64d8-8deb64cd675f.htm">
+      <HelpTOCNode Title="Player Constructor " Url="html/90c579ab-6154-31be-4123-12f7dafd1ff3.htm" />
+      <HelpTOCNode Id="866ecdbc-0254-4420-a90d-4d5304048588" Title="Player Properties" Url="html/4a434ee3-3087-55a1-29ab-feba920a58f6.htm">
+        <HelpTOCNode Title="GridPosition Property " Url="html/e3ed688f-0148-5f92-4a4f-12a89e43323c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Player Methods" Url="html/55308a00-9804-d4b3-59ed-08891b7db7d1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0e1c33bb-1ef0-42bc-9a98-a100bf8fc865" Title="Snake Class" Url="html/8b540390-1c30-434f-153b-3855fea9d948.htm">
+      <HelpTOCNode Title="Snake Constructor " Url="html/687dacc9-ff48-053d-930d-91fd0f453b44.htm" />
+      <HelpTOCNode Id="231c40f1-4c26-449a-9f44-86856357fbd7" Title="Snake Methods" Url="html/13d3db5b-3988-b2b1-3bd1-05444121acdd.htm">
+        <HelpTOCNode Title="Bite Method " Url="html/aac840d2-2f5d-df07-308b-fcea2d4f77af.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

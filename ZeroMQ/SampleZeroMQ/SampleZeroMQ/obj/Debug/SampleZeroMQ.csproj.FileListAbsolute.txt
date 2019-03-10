@@ -15,4 +15,7 @@ C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\bin\Debug\SampleZeroM
 C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\bin\Debug\AsyncIO.dll
 C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\bin\Debug\NetMQ.dll
 C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\bin\Debug\NetMQ.xml
-C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\obj\Debug\SampleZeroMQ.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\bin\Debug\SampleZeroMQ.XML
+C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\obj\Debug\SampleZeroMQ.csprojAssemblyReference.cache
+C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\obj\Debug\SampleZeroMQ.csproj.CoreCompileInputs.cache
+C:\~Office\Workz\Projects\ZeroMQ\SampleZeroMQ\SampleZeroMQ\obj\Debug\SampleZeroMQ.csproj.CopyComplete

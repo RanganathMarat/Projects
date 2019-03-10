@@ -4,7 +4,7 @@
 	the player.
 
 @mytag
-Scenario: The Snake bits
+Scenario: The Snake bites
 	Given I have the player who landed at the snake head	
 	When The snake bites
 	Then the player positions ends up to be the snake tail

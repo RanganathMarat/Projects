@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,8 +39,9 @@ namespace SnakeAndLadder
         /// <param name="player"/><see cref="Player"/>
         public void Bite(IPlayer player)
         {
+            Debug.Assert(_head == player.GridPosition);
             player.GridPosition = _tail;
-        }
+        }   
 
     }
 }

@@ -90,6 +90,7 @@
     <Compile Include="TestNullProperty.cs" />
     <Compile Include="tryLinq.cs" />
     <Compile Include="TryMisc.cs" />
+    <Compile Include="TryObservableCollection.cs" />
     <Compile Include="TryTraceLog.cs" />
     <Compile Include="TryUnity.cs" />
     <Compile Include="TryWindow.cs" />

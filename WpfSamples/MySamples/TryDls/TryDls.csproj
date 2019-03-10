@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="Philips.Platform.Presentation, Version=17.5.0.0, Culture=neutral, PublicKeyToken=223d991ebf2e6ef5, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\1-Project\1-Console\1 Workflow 2.0\Documents\Toolkit\Philips.Platform.Presentation.dll</HintPath>
+      <HintPath>..\..\..\..\..\1-Project\1-Console\2 DI\Code\PresentationToolKit\Philips.Platform.Presentation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -105,6 +105,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

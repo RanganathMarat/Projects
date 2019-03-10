@@ -13,7 +13,13 @@ namespace TestCharp
         {
             var container = new UnityContainer().LoadConfiguration();
             var eventTrigger = container.Resolve<IEventTrigger>();
-            var eventListener = container.Resolve<IEventListener>();
+            Console.WriteLine(eventTrigger.GetHashCode());
+            var eventTrigger1 = container.Resolve<IEventTrigger>();
+            Console.WriteLine(eventTrigger1.GetHashCode());
+            var eventListener = container.Resolve<IEventListener>("first");
+            Console.WriteLine(eventListener.GetType().Name);
+            var secondEventListener = container.Resolve<IEventListener>("second");
+            Console.WriteLine(secondEventListener.GetType().Name);
             eventListener.SubscribeToEvent(eventTrigger);
             eventTrigger.OnReactEvent();
         }
@@ -59,9 +65,18 @@ namespace TestCharp
             eventTrigger.React += (sender, args) => Console.WriteLine("Triggered");
         }
     }
+
+    internal class SecondEventListener : IEventListener
+    {
+        public void SubscribeToEvent(IEventTrigger eventTrigger)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     #endregion
     #region Interceptor
-    
+
     #region TargetObject
     public interface ILogger
     {

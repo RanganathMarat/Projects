@@ -1,17 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeAndLadder", "SnakeAndLadder.csproj", "{1583BB0A-6D28-484A-928B-D9E3DDEF34A6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests-MSTest-SnakeAndLadderTests", "..\SnakeAndLadderTests\Tests-MSTest-SnakeAndLadderTests.csproj", "{17D3B1EB-CDC8-4D3A-9691-83F5F656208C}"
-EndProject
-Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "..\Sandcastle Projects\Documentation.shfbproj", "{BB4D72E9-A458-49BE-B707-7F30EC61AC60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests-Nunit-SnakeAndLadderTests", "..\Nunit-SnakeAndLadderTests\Tests-Nunit-SnakeAndLadderTests.csproj", "{95F8946A-1A16-4F9C-BED4-528961484B99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs-SpecFlow-SnakeAndLadderAcceptanceTests", "..\Specs-SpecFlow-SnakeAndLadderAcceptanceTests\Specs-SpecFlow-SnakeAndLadderAcceptanceTests.csproj", "{A3AEC49A-A58A-4EEA-B357-D735725FC2C6}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation-SnL", "Documentation\Documentation-SnL\Documentation-SnL\Documentation-SnL.shfbproj", "{A6ECD581-C577-4745-A7AA-CF12B150A644}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1583BB0A-6D28-484A-928B-D9E3DDEF34A6} = {1583BB0A-6D28-484A-928B-D9E3DDEF34A6}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +24,6 @@ Global
 		{1583BB0A-6D28-484A-928B-D9E3DDEF34A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1583BB0A-6D28-484A-928B-D9E3DDEF34A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1583BB0A-6D28-484A-928B-D9E3DDEF34A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17D3B1EB-CDC8-4D3A-9691-83F5F656208C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17D3B1EB-CDC8-4D3A-9691-83F5F656208C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17D3B1EB-CDC8-4D3A-9691-83F5F656208C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17D3B1EB-CDC8-4D3A-9691-83F5F656208C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB4D72E9-A458-49BE-B707-7F30EC61AC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB4D72E9-A458-49BE-B707-7F30EC61AC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB4D72E9-A458-49BE-B707-7F30EC61AC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB4D72E9-A458-49BE-B707-7F30EC61AC60}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95F8946A-1A16-4F9C-BED4-528961484B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95F8946A-1A16-4F9C-BED4-528961484B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F8946A-1A16-4F9C-BED4-528961484B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,8 +32,14 @@ Global
 		{A3AEC49A-A58A-4EEA-B357-D735725FC2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3AEC49A-A58A-4EEA-B357-D735725FC2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3AEC49A-A58A-4EEA-B357-D735725FC2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ECD581-C577-4745-A7AA-CF12B150A644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ECD581-C577-4745-A7AA-CF12B150A644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ECD581-C577-4745-A7AA-CF12B150A644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20F1723F-2A9C-4E4A-8AE6-AF91E1CE1417}
 	EndGlobalSection
 EndGlobal

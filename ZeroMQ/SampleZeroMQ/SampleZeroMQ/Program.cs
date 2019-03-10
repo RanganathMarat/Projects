@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NetMQ;
 using System.Threading;
+using NetMQ.Sockets;
 
 namespace SampleZeroMQ
 {
@@ -25,12 +26,12 @@ namespace SampleZeroMQ
                 case 2: { PublishSubsribe(); break;}
                 case 3: { PublishSubsribeLoop(); break;}
                 case 4: {
-                            var trialThread = new Thread(() =>
-                            {
-                                PublishSubsribeLoop();
-                            });
-                            trialThread.Start();
-                            Thread.Sleep(1000);
+                            //var trialThread = new Thread(() =>
+                            //{
+                            //    PublishSubsribeLoop();
+                            //});
+                            //trialThread.Start();
+                            //Thread.Sleep(1000);
                             RequestReplyOnSamePort();
                             break; 
                         }
@@ -70,6 +71,7 @@ namespace SampleZeroMQ
             var connection = "tcp://localhost:5656";
             using (var context = NetMQContext.Create())
             {
+                Console.WriteLine(context.MaxSockets);
                 using (var publishSocket = context.CreatePublisherSocket())
                 {
                     publishSocket.Bind(connection);
@@ -172,6 +174,7 @@ namespace SampleZeroMQ
                             receivedString = requestSocket.ReceiveString();
                             Console.WriteLine("Received the message back from the Server - {0}", receivedString);
                             Console.ReadLine();
+
                         }
                     }
                 }

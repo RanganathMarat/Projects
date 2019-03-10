@@ -9,8 +9,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TryDls"
         xmlns:dls="clr-namespace:Philips.Platform.Presentation.Dls;assembly=Philips.Platform.Presentation"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="TEST-DLS" Height="400" Width="600">
+        Title="TEST-DLS" Height="450" Width="800">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -19,7 +20,25 @@
         </ResourceDictionary>
     </Window.Resources>
     <Grid Style ="{DynamicResource GridStyle}">
-        <ToggleButton AutomationProperties.AutomationId="TestButton" Height="50" Width="150" dls:ButtonBehavior.ButtonType="Primary" Click="ButtonBase_OnClick" BorderBrush="Crimson">Click me</ToggleButton>
-        <pt:FormattedDoubleSpinner AutomationProperties.AutomationId="AgeField" BorderBrush="Crimson" Margin="256,68,221,258" Height="Auto" DecimalPlaces="0" SmallChange="1" BorderThickness="4" />
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <ToggleButton Grid.Row ="0" Grid.Column="0" AutomationProperties.AutomationId="TestButton" Height="96" Width="96" dls:ButtonBehavior.ButtonType="Primary" Click="ButtonBase_OnClick" BorderBrush="Crimson">Click me</ToggleButton>
+        <DatePicker Style="{DynamicResource DatePickerStyle}" Grid.Row ="1" Grid.Column="0" DisplayDateStart="01-Jan-1800" ></DatePicker>
+        <DatePicker Grid.Row ="3" Grid.Column="0" DisplayDateStart="01-Jan-1800" ></DatePicker>
+        <pt:FormattedDoubleSpinner Grid.Row ="2" Grid.Column="0" AutomationProperties.AutomationId="AgeField" BorderBrush="Crimson" Margin="256,17,221,72" Height="Auto" DecimalPlaces="0" SmallChange="1" BorderThickness="4" RenderTransformOrigin="0.5,0.5" >
+            <pt:FormattedDoubleSpinner.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </pt:FormattedDoubleSpinner.RenderTransform>
+        </pt:FormattedDoubleSpinner>
     </Grid>
 </Window>

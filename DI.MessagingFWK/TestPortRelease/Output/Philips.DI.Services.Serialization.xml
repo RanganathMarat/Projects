@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Philips.DI.Services.Serialization</name>
+    </assembly>
+    <members>
+        <member name="T:Philips.DI.Services.Serialization.BinarySerializer`1">
+            <summary>
+            BinarySerializer
+            </summary>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.BinarySerializer`1.ToByte(`0)">
+            <summary>
+            Serializes the message into a list of bytes
+            </summary>
+            <param name="message">message that needs to be serialized</param>
+            <returns>list of bytes</returns>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.BinarySerializer`1.FromByte(System.Byte[])">
+            <summary>
+                Froms byte[] to Object.
+            </summary>
+            <param name="body">The body.</param>
+            <returns>message type</returns>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.BinarySerializer`1.FromString(System.String)">
+            <summary>
+            Deserialize object from the string.
+            </summary>
+            <param name="body">The body.</param>
+            <returns>message type</returns>        
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.BinarySerializer`1.ConvertToString(`0)">
+            <summary>
+            Serialize to string.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>string type</returns>        
+        </member>
+        <member name="T:Philips.DI.Services.Serialization.JsonSerializer`1">
+            <summary>
+            JsonSerializer
+            </summary>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.JsonSerializer`1.#ctor(System.Collections.Generic.IEnumerable{System.Type},System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.JsonSerializer"/> class.
+            </summary>
+            <param name="knownTypes">The known types.</param>
+            <param name="camelCasingRequired">Indicate whether camel casing is required</param>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.JsonSerializer`1.FromString(System.String)">
+            <summary>
+            Deserialize object from the string.
+            </summary>
+            <param name="body">The body.</param>
+            <returns>message type</returns>        
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.JsonSerializer`1.ConvertToString(`0)">
+            <summary>
+            Serialize to string.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>json string</returns>        
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.JsonSerializer`1.ToByte(`0)">
+            <summary>
+            Serialize to byte list encoded in UTF8
+            </summary>
+            <param name="message">serializable message.</param>
+            <returns>list of bytes that are encoded in UTF8</returns>        
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.JsonSerializer`1.FromByte(System.Byte[])">
+            <summary>
+            Deserialize object from the binary.
+            </summary>
+            <param name="body">The body.</param>
+            <returns>message type</returns>        
+        </member>
+        <member name="T:Philips.DI.Services.Serialization.SerializationFactory">
+            <summary>
+                Factory for the serialization object
+            </summary>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.SerializationFactory.Initialize(System.Collections.Generic.IDictionary{System.String,System.Int32})">
+            <summary>
+                Loads the types.
+            </summary>
+            <param name="typeIdMap"></param>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.SerializationFactory.GetSerializer``1(Philips.DI.Interfaces.Services.Serialization.SerializeType,System.Collections.Generic.List{System.Type},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <typeparam name="MessageT"></typeparam>
+            <param name="serializeType"></param>
+            <param name="types"></param>
+            <param name="camelCasingRequired">true if required. Default = false </param>
+            <returns>serializer; binary, json, xml</returns>
+        </member>
+        <member name="T:Philips.DI.Services.Serialization.XmlSerializer`1">
+            <summary>
+            XmlSerializer
+            </summary>
+        </member>
+        <member name="F:Philips.DI.Services.Serialization.XmlSerializer`1._knowTypes">
+            <summary>
+                The _know types
+            </summary>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.XmlSerializer`1.ToByte(`0)">
+            <summary>
+            Serializes the message into a list of bytes
+            </summary>
+            <param name="message">message that needs to be serialized</param>
+            <returns>list of bytes</returns>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.XmlSerializer`1.FromByte(System.Byte[])">
+            <summary>
+                Froms byte[] to Object.
+            </summary>
+            <param name="body">The body.</param>
+            <returns>message type</returns>
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.XmlSerializer`1.FromString(System.String)">
+            <summary>
+            Deserialize object from the string.
+            </summary>
+            <param name="body">The body.</param>
+            <returns>message type</returns>        
+        </member>
+        <member name="M:Philips.DI.Services.Serialization.XmlSerializer`1.ConvertToString(`0)">
+            <summary>
+            Serialize to string.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>string type</returns>        
+        </member>
+    </members>
+</doc>

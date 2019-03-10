@@ -17,23 +17,9 @@ namespace SnakeAndLadder
     /// </summary>
     public class Player : IPlayer
     {
-        #region Private members
-        private int _gridPosition;
-        #endregion // Private members
         /// <summary>
         /// Talks about the position of the player on the Snake and Ladder grid.
         /// </summary>
-        public int GridPosition
-        {
-            get
-            {
-                return _gridPosition;
-            }
-
-            set
-            {
-                _gridPosition = value;
-            }
-        }
+        public virtual int GridPosition { get; set; }
     }
 }

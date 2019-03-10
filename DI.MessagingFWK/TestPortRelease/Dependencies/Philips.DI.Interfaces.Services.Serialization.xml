@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Philips.DI.Interfaces.Services.Serialization</name>
+    </assembly>
+    <members>
+        <member name="T:Philips.DI.Interfaces.Services.Serialization.ISerialize`1">
+            <summary>
+            Serialization Interface
+            </summary>
+        </member>
+        <member name="M:Philips.DI.Interfaces.Services.Serialization.ISerialize`1.ToByte(`0)">
+            <summary>
+            Serialize to byte.
+            </summary>        
+            <param name="message">The message.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Philips.DI.Interfaces.Services.Serialization.ISerialize`1.FromByte(System.Byte[])">
+            <summary>
+            Deserialize object from the binary.
+            </summary>
+            <param name="body">The body.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Philips.DI.Interfaces.Services.Serialization.ISerialize`1.ConvertToString(`0)">
+            <summary>
+            Serialize to string.
+            </summary>
+            <param name="message">The message.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Philips.DI.Interfaces.Services.Serialization.ISerialize`1.FromString(System.String)">
+            <summary>
+            Deserialize object from the string.
+            </summary>
+            <param name="body">The body.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Philips.DI.Interfaces.Services.Serialization.SerializeType">
+            <summary>
+            Type of serialization supported by a endpoint
+            </summary>
+        </member>
+        <member name="F:Philips.DI.Interfaces.Services.Serialization.SerializeType.Binary">
+            <summary>
+            Binary Serialization
+            </summary>
+        </member>
+        <member name="F:Philips.DI.Interfaces.Services.Serialization.SerializeType.Xml">
+            <summary>
+            XML Serialization
+            </summary>
+        </member>
+        <member name="F:Philips.DI.Interfaces.Services.Serialization.SerializeType.Json">
+            <summary>
+            JSON Serialization
+            </summary>
+        </member>
+    </members>
+</doc>

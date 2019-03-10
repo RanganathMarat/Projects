@@ -21,11 +21,15 @@ namespace TestCharp
             //string[] list = new string[] {"as", "fg", "fhg" };
             //TryWindow.Start();
             //Console.WriteLine(TryMisc.TryDateParse());
-            TryMisc.TryOverride();
+            //TryMisc.TryOverride();
+            //TryMisc.TryObservableCollection();
             //TryUnity.StartTryUnity();
             //TryUnity.TryUnityInterceptor();           
             //Console.WriteLine(TestConstants.Text1);
             //Console.WriteLine(TestConstants.Text2);
+            var toC = new TryObservableCollection();
+            toC.SubscribeToCollectionChanged();
+            toC.RemoveFromCollection();
         }
 
     }

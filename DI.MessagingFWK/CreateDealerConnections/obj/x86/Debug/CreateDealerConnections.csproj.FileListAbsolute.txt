@@ -1,0 +1,17 @@
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\CreateDealerConnections.exe.config
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\CreateDealerConnections.exe
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\CreateDealerConnections.pdb
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\Messages.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\Philips.DI.Interfaces.Services.Messaging.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\Philips.DI.Interfaces.Services.Serialization.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\Philips.DI.Services.Messaging.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\NetMQ.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\Philips.DI.Services.Serialization.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\AsyncIO.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\Newtonsoft.Json.dll
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\bin\x86\Debug\Messages.pdb
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\x86\Debug\CreateDealerConnections.csprojAssemblyReference.cache
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\x86\Debug\CreateDealerConnections.csproj.CoreCompileInputs.cache
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\x86\Debug\CreateDealerConnections.csproj.CopyComplete
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\x86\Debug\CreateDealerConnections.exe
+C:\~Office\Workz\Projects\DI.MessagingFWK\CreateDealerConnections\obj\x86\Debug\CreateDealerConnections.pdb
