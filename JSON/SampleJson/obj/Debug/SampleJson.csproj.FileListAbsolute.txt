@@ -1,0 +1,10 @@
+C:\~Office\Workz\Projects\JSON\SampleJson\bin\Debug\SampleJson.exe.config
+C:\~Office\Workz\Projects\JSON\SampleJson\bin\Debug\SampleJson.exe
+C:\~Office\Workz\Projects\JSON\SampleJson\bin\Debug\SampleJson.pdb
+C:\~Office\Workz\Projects\JSON\SampleJson\bin\Debug\Newtonsoft.Json.dll
+C:\~Office\Workz\Projects\JSON\SampleJson\bin\Debug\Newtonsoft.Json.xml
+C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csprojAssemblyReference.cache
+C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csproj.CoreCompileInputs.cache
+C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csproj.CopyComplete
+C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.exe
+C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.pdb

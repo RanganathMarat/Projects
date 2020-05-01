@@ -1,0 +1,21 @@
+version: '3.7'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - C:/orthanc-docker/nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - backend
+  orthanc:
+    image: jodogne/orthanc-plugins:1.5.6
+    volumes:
+      - C:/orthanc-docker/orthanc.json:/etc/orthanc/orthanc.json
+    ports:
+      - "8042:8042"
+    networks:
+      - backend
+networks:
+  backend:
+    driver: bridge

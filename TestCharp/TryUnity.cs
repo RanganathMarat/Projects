@@ -24,6 +24,12 @@ namespace TestCharp
             eventTrigger.OnReactEvent();
         }
 
+        internal static void StartTryUnityConstructorPassing()
+        {
+            var container = new UnityContainer().LoadConfiguration();
+            var thirdEventListener = container.Resolve<IEventListenerExtension>();
+            thirdEventListener.DisplayTemp();
+        }
         internal static void TryUnityInterceptor()
         {
             var container = new UnityContainer();
@@ -72,6 +78,26 @@ namespace TestCharp
         {
             throw new NotImplementedException();
         }
+    }
+
+    internal class ThirdEventListener : IEventListenerExtension
+    {
+        public ThirdEventListener(IEventTrigger eventTrigger)
+        {
+            if (eventTrigger != null)
+            {
+                Console.WriteLine("Inside the constructor of ThirdEventListener");
+            }
+        }
+        public void DisplayTemp()
+        {
+            Console.WriteLine("Inside DisplayTemp");
+        }
+    }
+
+    internal interface IEventListenerExtension
+    {
+        void DisplayTemp();
     }
 
     #endregion

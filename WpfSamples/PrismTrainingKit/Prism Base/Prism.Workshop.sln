@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Workshop", "Prism.Workshop\Prism.Workshop.csproj", "{B83E8FB7-46F4-4608-A5B2-95328F8CD7CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Workshop.Web", "Prism.Workshop.Web\Prism.Workshop.Web.csproj", "{BD07F7A9-A1CE-4603-B318-1A82EAB4012B}"
@@ -22,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {377C68E2-9CEB-4F2F-A678-33EED6821E66}
 	EndGlobalSection
 EndGlobal

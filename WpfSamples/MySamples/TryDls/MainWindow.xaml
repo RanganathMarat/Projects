@@ -26,6 +26,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <ToggleButton Grid.Row ="0" Grid.Column="0" AutomationProperties.AutomationId="TestButton" Height="96" Width="96" dls:ButtonBehavior.ButtonType="Primary" Click="ButtonBase_OnClick" BorderBrush="Crimson">Click me</ToggleButton>
         <DatePicker Style="{DynamicResource DatePickerStyle}" Grid.Row ="1" Grid.Column="0" DisplayDateStart="01-Jan-1800" ></DatePicker>
@@ -40,5 +41,6 @@
                 </TransformGroup>
             </pt:FormattedDoubleSpinner.RenderTransform>
         </pt:FormattedDoubleSpinner>
+        <pt:Popover Grid.Row="5" Text="Test content" AnchorPosition="RightCenter" IsOpen="True" HorizontalAlignment="Right" Width="50" Height="50" ></pt:Popover>
     </Grid>
 </Window>

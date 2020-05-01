@@ -8,4 +8,5 @@ C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCu
 C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.csproj.GenerateResource.Cache
 C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.dll
 C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.pdb
-C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.csprojResolveAssemblyReference.cache
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.csprojAssemblyReference.cache
+C:\~Office\Workz\Projects\HostWPFinWinforms\WPFCustomControl\obj\x64\Debug\WPFCustomControl.csproj.CoreCompileInputs.cache

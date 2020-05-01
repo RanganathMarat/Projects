@@ -8,6 +8,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization.Formatters.Soap;
 using System.Xml.Serialization;
 using System.Collections.ObjectModel;
+using Newtonsoft.Json;
 using ProtocolBuf12.ECViewModel;
 namespace ProtocolBuf12
 {
@@ -97,6 +98,20 @@ namespace ProtocolBuf12
             FileStream soapReadFile = File.OpenRead("XmlFileSoap.xml");
             DummyData d6 = (DummyData)soapFormatter.Deserialize(soapReadFile);
             Console.WriteLine("Soap Read = {0}, {1}, {2}", d6.GetPrivate(), d6.name, d6.description);
+
+            //Try JSON serialization
+            DummyData d6Json = new DummyData("nameJSON", "JSON serialization", 120);
+            FileStream file = new FileStream("JSONStream.txt", FileMode.Create);
+            StreamWriter sw = new StreamWriter(file);
+            var JsonSerializerInstance = JsonSerializer.Create();
+            JsonSerializerInstance.Serialize(sw, d6Json);
+            StringBuilder s = new StringBuilder();
+            TextWriter tw = new StringWriter(s);
+            JsonSerializerInstance.Serialize(tw, d6Json);
+            Console.WriteLine(s);
+            
+            sw.Close();
+            file.Close();
 
         }
     }

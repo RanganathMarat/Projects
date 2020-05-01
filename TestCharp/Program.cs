@@ -27,9 +27,10 @@ namespace TestCharp
             //TryUnity.TryUnityInterceptor();           
             //Console.WriteLine(TestConstants.Text1);
             //Console.WriteLine(TestConstants.Text2);
-            var toC = new TryObservableCollection();
-            toC.SubscribeToCollectionChanged();
-            toC.RemoveFromCollection();
+            //var toC = new TryObservableCollection();
+            //toC.SubscribeToCollectionChanged();
+            //toC.RemoveFromCollection();
+            TryUnity.StartTryUnityConstructorPassing();
         }
 
     }

@@ -28,27 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.hostingForm1 = new HostWinForms.HostingForm();
             this.SuspendLayout();
-            // 
-            // hostingForm1
-            // 
-            this.hostingForm1.Customers = null;
-            this.hostingForm1.Location = new System.Drawing.Point(82, 76);
-            this.hostingForm1.Name = "hostingForm1";
-            this.hostingForm1.SelectedIndex = -1;
-            this.hostingForm1.Size = new System.Drawing.Size(200, 100);
-            this.hostingForm1.TabIndex = 0;
-            this.hostingForm1.Text = "hostingForm1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(372, 251);
-            this.Controls.Add(this.hostingForm1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

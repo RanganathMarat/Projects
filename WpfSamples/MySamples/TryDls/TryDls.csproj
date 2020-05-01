@@ -35,9 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Philips.Platform.Presentation, Version=17.5.0.0, Culture=neutral, PublicKeyToken=223d991ebf2e6ef5, processorArchitecture=MSIL">
+    <Reference Include="Philips.Platform.Presentation, Version=18.1.0.0, Culture=neutral, PublicKeyToken=223d991ebf2e6ef5, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\1-Project\1-Console\2 DI\Code\PresentationToolKit\Philips.Platform.Presentation.dll</HintPath>
+      <HintPath>..\..\..\..\..\1-Project\1-Console\2 DI\Code\Presentation\Bin\Philips.Platform.Presentation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

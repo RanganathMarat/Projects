@@ -79,6 +79,7 @@ namespace HostingApplication
                 // Move the window to overlay it on this window
                 MoveWindow(_childp.MainWindowHandle, 0, 0, (int)this.ActualWidth, (int)this.ActualHeight, true);
                 //MoveWindow(_childp.MainWindowHandle, 0, 0, 100, 100, true);
+
             }
             catch (Exception ex)
             {

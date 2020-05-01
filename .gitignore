@@ -10,3 +10,53 @@
 *.suo
 *.lock
 *.tlog
+/TestCharp/bin/Debug/TestCharp.exe.config
+/TestCharp/bin/Debug/Microsoft.Practices.Unity.xml
+/TestCharp/bin/Debug/Microsoft.Practices.Unity.RegistrationByConvention.xml
+/TestCharp/bin/Debug/Microsoft.Practices.Unity.Interception.xml
+/TestCharp/bin/Debug/Microsoft.Practices.Unity.Interception.Configuration.xml
+/TestCharp/bin/Debug/Microsoft.Practices.Unity.Configuration.xml
+/TestCharp/bin/Debug/Microsoft.Practices.ServiceLocation.xml
+*.zip
+
+/TestCharp/bin/Debug/TestCharp.exe.config~5f001e7... Sync
+/TestCharp/bin/Debug/TestCharp.exe~5f001e7... Sync
+/WpfSamples/PrismTrainingKit/~My Samples/PrismApplication/PrismApplication/PrismApplication/bin/Debug/PrismApplication.vshost.exe.manifest~merged
+/ASPdotNet Core/OdeToFood/.vs
+/ASPdotNet Core/OdeToFood/OdeToFood/bin
+/ASPdotNet Core/OdeToFood/OdeToFood/obj
+/ASPdotNet Core/OdeToFood/OdeToFood.Core/bin
+/ASPdotNet Core/OdeToFood/OdeToFood.Core/obj
+/ASPdotNet Core/OdeToFood/OdeToFood.Data/bin
+/ASPdotNet Core/OdeToFood/OdeToFood.Data/obj
+/Closest_to_zero_spec/obj
+/JSON/SampleJson/bin/Debug
+/netmq-4.0.0.1
+/Philips.DI.Config.PatientRegistration
+/TestCharp/NUnitTestProject1/bin/Debug/netcoreapp2.2
+/TestCharp/NUnitTestProject1/obj
+/TestCharp/Philips.DI.Interfaces.ConfigurationData/obj
+/TestCharp/Philips.DI.Interfaces.ConfigurationRegistry/obj
+/TestCharp/Philips.DI.Services.ConfigurationProvider/obj
+/TestCharp/Philips.DI.Interfaces.ConfigurationData
+/TestCharp/Philips.DI.Interfaces.ConfigurationRegistry
+/TestCharp/Philips.DI.Services.ConfigurationProvider
+/TestCharp/TestDIConfigManagement/bin
+/TestCharp/Philips.MR.ConfigurationRegistry/obj
+/TestCharp/TestDIConfigManagement/obj
+/TestCharp/UnitTestProject1/obj/Debug
+/TryNUnit/TryNUnit/obj/Debug
+/TryNUnit/TryNUnitTests1/obj/Debug
+/WpfSamples/MySamples/HostingApplication/bin/Release
+/WpfSamples/MySamples/HostingApplication/obj/Release
+/WpfSamples/MySamples/TryWindow/obj/Release
+/WpfSamples/PrismTrainingKit/Prism Base/Prism.Workshop.Web/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/Interfaces_cs/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication/bin/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication.DefaultTaskModule_cs/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication.HeaderModule/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication.ScanlistModule/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication.TaskModule_cs/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication_cs/obj/Debug
+/WpfSamples/PrismTrainingKit/PrismSample/EventContracts/obj/Debug

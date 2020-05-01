@@ -4,9 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyPrismSample"
+        xmlns:regions="http://prismlibrary.com/"
+        xmlns:bs="clr-namespace:MyPrismSample.Bootstrapper"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ContentControl x:Name="AuthorListRegion"
+                        regions:RegionManager.RegionName="{x:Static bs:RegionNames.AuthorListRegion}"/>
     </Grid>
 </Window>

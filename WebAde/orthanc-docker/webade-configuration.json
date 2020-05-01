@@ -1,0 +1,14 @@
+{
+    "location": {
+        "wadoServerUrl": "http://localhost/orthanc/dicom-web/",
+        "qidoServerUrl": "http://localhost/orthanc/dicom-web/",
+        "volumeServerRestApiUrl": "http://localhost:8088/api/",
+        "volumeServerWebSocketUrl": "ws://localhost:8088/ws/scene",
+        "patientlistUrl": "StudiesListQido.html",
+        "aboutUrl": "about.html",
+        "resourceUrl": "..",
+        "translationUrl": "./assets/i18n",
+        "exitUrl": "../index.html",
+        "dataAccess": "dicomstore"
+    }
+}

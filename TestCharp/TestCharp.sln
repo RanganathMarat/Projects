@@ -1,16 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCharp", "TestCharp.csproj", "{15671836-F461-435F-871E-4E46471C1AD8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A68E0BF-295C-46A3-8102-14BFD68B14EA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DIConfigManagement", "DIConfigManagement", "{F9EE2205-436F-4787-AF37-77F1691646B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationData", "ConfigurationData", "{03A5FA9D-2C64-4144-91CC-22DC147DC6E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philips.DI.Config.PatientRegistration", "..\Philips.DI.Config.PatientRegistration\Philips.DI.Config.PatientRegistration.csproj", "{1B3C9B1F-847D-46EF-8F95-449ABD6EEADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philips.DI.Interfaces.ConfigurationRegistry", "Philips.DI.Interfaces.ConfigurationRegistry\Philips.DI.Interfaces.ConfigurationRegistry.csproj", "{5F5E2F82-0EF1-478B-A361-E28872A0981F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MRImplementationSample", "MRImplementationSample", "{D328A8B9-0D9D-4400-ACBE-38C870507E96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{0F0A41C7-6FEE-4DFB-9F89-1E09DF90B7AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philips.MR.ConfigurationRegistry", "Philips.MR.ConfigurationRegistry\Philips.MR.ConfigurationRegistry.csproj", "{EFA4627A-2704-4831-AE9D-3C115104EBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DIConfigConsumer", "DIConfigConsumer", "{5174B185-986C-42E0-8167-335C45F7599F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philips.DI.Services.ConfigurationProvider", "Philips.DI.Services.ConfigurationProvider\Philips.DI.Services.ConfigurationProvider.csproj", "{3D090D45-E11D-48BF-9E10-B61CAC12A45D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philips.DI.Interfaces.ConfigurationData", "Philips.DI.Interfaces.ConfigurationData\Philips.DI.Interfaces.ConfigurationData.csproj", "{23AC2CE2-48ED-461F-AFE3-C231B4A1ECCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDIConfigManagement", "TestDIConfigManagement\TestDIConfigManagement.csproj", "{DCD6D508-88FF-4E6C-B3EB-1386FC2F6797}"
 EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -20,8 +37,50 @@ Global
 		{15671836-F461-435F-871E-4E46471C1AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15671836-F461-435F-871E-4E46471C1AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15671836-F461-435F-871E-4E46471C1AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3C9B1F-847D-46EF-8F95-449ABD6EEADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3C9B1F-847D-46EF-8F95-449ABD6EEADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3C9B1F-847D-46EF-8F95-449ABD6EEADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3C9B1F-847D-46EF-8F95-449ABD6EEADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5E2F82-0EF1-478B-A361-E28872A0981F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5E2F82-0EF1-478B-A361-E28872A0981F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5E2F82-0EF1-478B-A361-E28872A0981F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5E2F82-0EF1-478B-A361-E28872A0981F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA4627A-2704-4831-AE9D-3C115104EBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA4627A-2704-4831-AE9D-3C115104EBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA4627A-2704-4831-AE9D-3C115104EBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA4627A-2704-4831-AE9D-3C115104EBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D090D45-E11D-48BF-9E10-B61CAC12A45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D090D45-E11D-48BF-9E10-B61CAC12A45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D090D45-E11D-48BF-9E10-B61CAC12A45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D090D45-E11D-48BF-9E10-B61CAC12A45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23AC2CE2-48ED-461F-AFE3-C231B4A1ECCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AC2CE2-48ED-461F-AFE3-C231B4A1ECCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AC2CE2-48ED-461F-AFE3-C231B4A1ECCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AC2CE2-48ED-461F-AFE3-C231B4A1ECCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD6D508-88FF-4E6C-B3EB-1386FC2F6797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD6D508-88FF-4E6C-B3EB-1386FC2F6797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD6D508-88FF-4E6C-B3EB-1386FC2F6797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD6D508-88FF-4E6C-B3EB-1386FC2F6797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03A5FA9D-2C64-4144-91CC-22DC147DC6E9} = {0F0A41C7-6FEE-4DFB-9F89-1E09DF90B7AB}
+		{1B3C9B1F-847D-46EF-8F95-449ABD6EEADE} = {03A5FA9D-2C64-4144-91CC-22DC147DC6E9}
+		{5F5E2F82-0EF1-478B-A361-E28872A0981F} = {0F0A41C7-6FEE-4DFB-9F89-1E09DF90B7AB}
+		{D328A8B9-0D9D-4400-ACBE-38C870507E96} = {F9EE2205-436F-4787-AF37-77F1691646B0}
+		{0F0A41C7-6FEE-4DFB-9F89-1E09DF90B7AB} = {F9EE2205-436F-4787-AF37-77F1691646B0}
+		{EFA4627A-2704-4831-AE9D-3C115104EBB9} = {D328A8B9-0D9D-4400-ACBE-38C870507E96}
+		{5174B185-986C-42E0-8167-335C45F7599F} = {F9EE2205-436F-4787-AF37-77F1691646B0}
+		{3D090D45-E11D-48BF-9E10-B61CAC12A45D} = {5174B185-986C-42E0-8167-335C45F7599F}
+		{23AC2CE2-48ED-461F-AFE3-C231B4A1ECCD} = {03A5FA9D-2C64-4144-91CC-22DC147DC6E9}
+		{DCD6D508-88FF-4E6C-B3EB-1386FC2F6797} = {5174B185-986C-42E0-8167-335C45F7599F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99622F5C-FBEF-4C5F-88F4-73D41B82C895}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
