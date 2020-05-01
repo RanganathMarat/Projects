@@ -1,6 +1,0 @@
-C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Output\Messages.dll
-C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Output\Messages.pdb
-C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Messages\obj\Debug\Messages.csproj.CoreCompileInputs.cache
-C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Messages\obj\Debug\Messages.csproj.CopyComplete
-C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Messages\obj\Debug\Messages.dll
-C:\~Office\Workz\Projects\DI.MessagingFWK\TestPortRelease\Messages\obj\Debug\Messages.pdb
