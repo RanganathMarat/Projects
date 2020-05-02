@@ -23,21 +23,13 @@ namespace OdeToFood.Data
         public Restaurant AddNew(Restaurant newRestaurant)
         {
             var temp = new Restaurant()
-<<<<<<< HEAD
+
             {
                 Id = nextAvailableId++,
                 Name = newRestaurant.Name,
                 Cuisine = newRestaurant.Cuisine,
                 Location = newRestaurant.Location
             };
-=======
-                {
-                    Id = nextAvailableId++,
-                    Name = newRestaurant.Name,
-                    Cuisine = newRestaurant.Cuisine,
-                    Location = newRestaurant.Location
-                };
->>>>>>> bbcb3c2... Changes
             restaurants.Add(temp);
             return temp;
         }
@@ -47,7 +39,6 @@ namespace OdeToFood.Data
             return 0;
         }
 
-<<<<<<< HEAD
         public Restaurant Delete(int id)
         {
             var restaurant = restaurants.FirstOrDefault<Restaurant>(r => r.Id == id);
@@ -55,8 +46,6 @@ namespace OdeToFood.Data
             return restaurant;
         }
 
-=======
->>>>>>> bbcb3c2... Changes
         public Restaurant GetRestaurantById(int restaurantId)
         {
             return restaurants.SingleOrDefault(r => r.Id == restaurantId);
@@ -65,15 +54,9 @@ namespace OdeToFood.Data
         public IEnumerable<Restaurant> GetRestuarantsByName(string name = null)
         {
             return from r in restaurants
-<<<<<<< HEAD
                    where string.IsNullOrEmpty(name) || r.Name.StartsWith(name, true, CultureInfo.CurrentCulture)
                    orderby r.Name
                    select r;
-=======
-                where string.IsNullOrEmpty(name) || r.Name.StartsWith(name, true, CultureInfo.CurrentCulture)
-                orderby r.Name
-                select r;
->>>>>>> bbcb3c2... Changes
 
         }
 
