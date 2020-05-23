@@ -1,6 +1,7 @@
 ﻿@page
 @model OdeToFood.Pages.Restaurants.ListModel
 @{
+    ViewData["Title"] = "Restaurants";
 }
 <h1>Restaurants</h1>
 
@@ -17,32 +18,45 @@
 
     </div>
 </form>
-
-<table class="table">
-    @foreach (var restaurant in Model.Restaurants)
-    {
-        <tr>
-            <td>@restaurant.Name</td>
-            <td>@restaurant.Location</td>
-            <td>@restaurant.Cuisine</td>
-            <td>
-                <a class="btn btn-lg"
-                   asp-page="./Detail"
-                   asp-route-restaurantID="@restaurant.Id">
-                    <i class="glyphicon glyphicon-zoom-in"></i>
-                </a>
-            </td>
-            <td>
-                <a class="btn btn-lg"
-                   asp-page="./Edit"
-                   asp-route-restaurantId="@restaurant.Id">
-                    <i class="glyphicon glyphicon-edit"></i>
-                </a>
-            </td>
-        </tr>
-    }
-</table>
-
+<div>
+    @*<table class="table">
+            @foreach (var restaurant in Model.Restaurants)
+            {
+            <tr>
+                <td>@restaurant.Name</td>
+                <td>@restaurant.Location</td>
+                <td>@restaurant.Cuisine</td>
+                <td>
+                    <a class="btn btn-lg"
+                       asp-page="./Detail"
+                       asp-route-restaurantID="@restaurant.Id">
+                        <i class="glyphicon glyphicon-zoom-in"></i>
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-lg"
+                       asp-page="./Edit"
+                       asp-route-restaurantId="@restaurant.Id">
+                        <i class="glyphicon glyphicon-edit"></i>
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-lg"
+                       asp-page="./Delete"
+                       asp-route-restaurantId="@restaurant.Id">
+                        <i class="glyphicon glyphicon-trash"></i>
+                    </a>
+                </td>
+            </tr>
+            }
+        </table>*@
+</div>
+@foreach (var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant"></partial>
+}
 <a asp-page="./Edit" class="btn btn-primary">Add New</a>
 
+@section CustomFooter {
 <div>@Model.Message</div>
+}
