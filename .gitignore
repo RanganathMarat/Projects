@@ -10,6 +10,7 @@
 *.suo
 *.lock
 *.tlog
+*.user
 /TestCharp/bin/Debug/TestCharp.exe.config
 /TestCharp/bin/Debug/Microsoft.Practices.Unity.xml
 /TestCharp/bin/Debug/Microsoft.Practices.Unity.RegistrationByConvention.xml
@@ -61,3 +62,6 @@
 /WpfSamples/PrismTrainingKit/PrismApplication/PrismApplication_cs/obj/Debug
 /WpfSamples/PrismTrainingKit/PrismSample/EventContracts/obj/Debug
 /netmq-master
+/ReactJs
+/AngularJS
+/Blazor
