@@ -1,7 +1,0 @@
-D:\Rabi\Projects\Orchestra\build_output\Common.Messaging.dll.config
-D:\Rabi\Projects\Orchestra\build_output\Common.Messaging.XML
-D:\Rabi\Projects\Orchestra\build_output\Common.Messaging.dll
-D:\Rabi\Projects\Orchestra\build_output\Common.Messaging.pdb
-D:\Rabi\Projects\Orchestra\Common.Messaging\obj\x64\Debug\Common.Messaging.csprojResolveAssemblyReference.cache
-D:\Rabi\Projects\Orchestra\Common.Messaging\obj\x64\Debug\Common.Messaging.dll
-D:\Rabi\Projects\Orchestra\Common.Messaging\obj\x64\Debug\Common.Messaging.pdb

@@ -1,6 +1,0 @@
-D:\Workz\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
-D:\Workz\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csprojResolveAssemblyReference.cache
-D:\Workz\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe
-D:\Workz\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
-D:\Workz\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.exe
-D:\Workz\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.pdb

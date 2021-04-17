@@ -1,1 +1,0 @@
-D:\Workz\Projects\WpfSamples\Training\FirstSample\CustomControl\bin\Debug\CustomControl.exe.config

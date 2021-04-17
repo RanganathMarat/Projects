@@ -1,8 +1,0 @@
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\bin\Debug\Sender.exe.config
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\bin\Debug\Sender.exe
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\bin\Debug\Sender.pdb
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\bin\Debug\RabbitMQ.Client.dll
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\bin\Debug\RabbitMQ.Client.xml
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\obj\Debug\Sender.csprojResolveAssemblyReference.cache
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\obj\Debug\Sender.exe
-D:\Workz\Projects\RabbitMQ\SenderReceiver\Sender\obj\Debug\Sender.pdb

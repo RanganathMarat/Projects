@@ -1,5 +1,0 @@
-c:\users\ing02494\documents\visual studio 2010\Projects\XMLWriter\XMLWriter\bin\Debug\XMLWriter.exe
-c:\users\ing02494\documents\visual studio 2010\Projects\XMLWriter\XMLWriter\bin\Debug\XMLWriter.pdb
-c:\users\ing02494\documents\visual studio 2010\Projects\XMLWriter\XMLWriter\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\ing02494\documents\visual studio 2010\Projects\XMLWriter\XMLWriter\obj\x86\Debug\XMLWriter.exe
-c:\users\ing02494\documents\visual studio 2010\Projects\XMLWriter\XMLWriter\obj\x86\Debug\XMLWriter.pdb

@@ -1,8 +1,0 @@
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\Debug\TestApplication.exe.config
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\Debug\TestApplication.exe
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\Debug\TestApplication.pdb
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\Debug\TestDll.dll
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\bin\Debug\TestDll.pdb
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\obj\Debug\TestApplication.exe
-C:\~Office\Workz\Projects\AnyCPU\TestApplication\obj\Debug\TestApplication.pdb

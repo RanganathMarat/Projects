@@ -1,9 +1,0 @@
-D:\Rabi\Projects\Orchestra\build_output\Common.Controls.XML
-D:\Rabi\Projects\Orchestra\build_output\Common.Controls.dll
-D:\Rabi\Projects\Orchestra\build_output\Common.Controls.pdb
-D:\Rabi\Projects\Orchestra\Common.Controls\obj\Debug\Common.Controls.csprojResolveAssemblyReference.cache
-D:\Rabi\Projects\Orchestra\Common.Controls\obj\Debug\Common.Controls.MethodInvokedEventArgs.resources
-D:\Rabi\Projects\Orchestra\Common.Controls\obj\Debug\Common.Controls.csproj.GenerateResource.Cache
-D:\Rabi\Projects\Orchestra\Common.Controls\obj\Debug\Common.Controls.dll
-D:\Rabi\Projects\Orchestra\Common.Controls\obj\Debug\Common.Controls.pdb
-D:\Rabi\Projects\Orchestra\build_output\libzmq.dll

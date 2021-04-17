@@ -1,8 +1,0 @@
-C:\svn\xtcproto\SampleXTC\SampleXTC\obj\Debug\ResolveAssemblyReference.cache
-C:\svn\xtcproto\SampleXTC\SampleXTC\bin\Debug\SampleXTC.exe
-C:\svn\xtcproto\SampleXTC\SampleXTC\bin\Debug\SampleXTC.pdb
-C:\svn\xtcproto\SampleXTC\SampleXTC\bin\Debug\protobuf-net.dll
-C:\svn\xtcproto\SampleXTC\SampleXTC\bin\Debug\protobuf-net.pdb
-C:\svn\xtcproto\SampleXTC\SampleXTC\bin\Debug\protobuf-net.xml
-C:\svn\xtcproto\SampleXTC\SampleXTC\obj\Debug\SampleXTC.exe
-C:\svn\xtcproto\SampleXTC\SampleXTC\obj\Debug\SampleXTC.pdb

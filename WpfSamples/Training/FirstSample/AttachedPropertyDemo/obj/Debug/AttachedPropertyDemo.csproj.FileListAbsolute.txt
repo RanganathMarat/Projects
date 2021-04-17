@@ -1,6 +1,0 @@
-D:\Workz\Projects\WpfSamples\Training\FirstSample\AttachedPropertyDemo\bin\Debug\AttachedPropertyDemo.exe.config
-D:\Workz\Projects\WpfSamples\Training\FirstSample\AttachedPropertyDemo\bin\Debug\AttachedPropertyDemo.exe
-D:\Workz\Projects\WpfSamples\Training\FirstSample\AttachedPropertyDemo\bin\Debug\AttachedPropertyDemo.pdb
-D:\Workz\Projects\WpfSamples\Training\FirstSample\AttachedPropertyDemo\obj\Debug\AttachedPropertyDemo.exe
-D:\Workz\Projects\WpfSamples\Training\FirstSample\AttachedPropertyDemo\obj\Debug\AttachedPropertyDemo.pdb
-D:\Workz\Projects\WpfSamples\Training\FirstSample\AttachedPropertyDemo\obj\Debug\AttachedPropertyDemo.csprojResolveAssemblyReference.cache

@@ -1,4 +1,0 @@
-C:\PrismTK_4.0\7-Navigation\Exercise 1\End\Infrastructure\Bin\Debug\Infrastructure.dll
-C:\PrismTK_4.0\7-Navigation\Exercise 1\End\Infrastructure\Bin\Debug\Infrastructure.pdb
-C:\PrismTK_4.0\7-Navigation\Exercise 1\End\Infrastructure\obj\Debug\Infrastructure.dll
-C:\PrismTK_4.0\7-Navigation\Exercise 1\End\Infrastructure\obj\Debug\Infrastructure.pdb

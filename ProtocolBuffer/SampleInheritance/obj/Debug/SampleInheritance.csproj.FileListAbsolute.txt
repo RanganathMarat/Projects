@@ -1,8 +1,0 @@
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\bin\Debug\SampleInheritance.exe.config
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\bin\Debug\SampleInheritance.exe
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\bin\Debug\SampleInheritance.pdb
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\bin\Debug\protobuf-net.dll
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\bin\Debug\protobuf-net.pdb
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\bin\Debug\protobuf-net.xml
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\obj\Debug\SampleInheritance.exe
-D:\Workz\Projects\ProtocolBuffer\SampleInheritance\obj\Debug\SampleInheritance.pdb

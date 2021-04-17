@@ -1,9 +1,0 @@
-C:\PrismTK_4.0\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\bin\Prism.Workshop.Web.dll
-C:\PrismTK_4.0\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\bin\Prism.Workshop.Web.pdb
-C:\PrismTK_4.0\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\obj\Debug\Prism.Workshop.Web.dll
-C:\PrismTK_4.0\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\obj\Debug\Prism.Workshop.Web.pdb
-D:\Workz\Projects\WpfSamples\PrismTrainingKit\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\obj\Debug\Prism.Workshop.Web.pdb
-D:\Workz\Projects\WpfSamples\PrismTrainingKit\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\obj\Debug\Prism.Workshop.Web.csprojResolveAssemblyReference.cache
-D:\Workz\Projects\WpfSamples\PrismTrainingKit\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\bin\Prism.Workshop.Web.dll
-D:\Workz\Projects\WpfSamples\PrismTrainingKit\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\bin\Prism.Workshop.Web.pdb
-D:\Workz\Projects\WpfSamples\PrismTrainingKit\2-Dependency Injection\Exercise 1\End\Prism.Workshop.Web\obj\Debug\Prism.Workshop.Web.dll

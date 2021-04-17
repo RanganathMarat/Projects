@@ -1,5 +1,0 @@
-E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.ScanlistModule\bin\Debug\PrismApplication.ScanlistModule.dll
-E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.ScanlistModule\bin\Debug\PrismApplication.ScanlistModule.pdb
-E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule.csprojResolveAssemblyReference.cache
-E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule.dll
-E:\VSNET\PRISM\Trial\PrismApplication\PrismApplication.ScanlistModule\obj\Debug\PrismApplication.ScanlistModule.pdb

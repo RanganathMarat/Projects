@@ -1,7 +1,0 @@
-D:\Rabi\Projects\Orchestra\build_output\IManageApp.XML
-D:\Rabi\Projects\Orchestra\build_output\IManageApp.dll
-D:\Rabi\Projects\Orchestra\build_output\IManageApp.pdb
-D:\Rabi\Projects\Orchestra\IManageApp\obj\Debug\IManageApp.csprojResolveAssemblyReference.cache
-D:\Rabi\Projects\Orchestra\IManageApp\obj\Debug\IManageApp.dll
-D:\Rabi\Projects\Orchestra\IManageApp\obj\Debug\IManageApp.pdb
-D:\Rabi\Projects\Orchestra\build_output\libzmq.dll

@@ -1,7 +1,0 @@
-D:\Rabi\Projects\Orchestra\build_output\DataProcessor.exe.config
-D:\Rabi\Projects\Orchestra\build_output\DataProcessor.XML
-D:\Rabi\Projects\Orchestra\build_output\DataProcessor.exe
-D:\Rabi\Projects\Orchestra\build_output\DataProcessor.pdb
-D:\Rabi\Projects\Orchestra\DataProcessor\obj\x64\Debug\DataProcessor.csprojResolveAssemblyReference.cache
-D:\Rabi\Projects\Orchestra\DataProcessor\obj\x64\Debug\DataProcessor.exe
-D:\Rabi\Projects\Orchestra\DataProcessor\obj\x64\Debug\DataProcessor.pdb

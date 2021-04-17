@@ -1,6 +1,0 @@
-C:\~Office\Workz\Projects\AsyncAwait\First\bin\Debug\First.exe.config
-C:\~Office\Workz\Projects\AsyncAwait\First\bin\Debug\First.exe
-C:\~Office\Workz\Projects\AsyncAwait\First\bin\Debug\First.pdb
-C:\~Office\Workz\Projects\AsyncAwait\First\obj\Debug\First.exe
-C:\~Office\Workz\Projects\AsyncAwait\First\obj\Debug\First.pdb
-C:\~Office\Workz\Projects\AsyncAwait\First\obj\Debug\First.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-D:\Workz\Projects\WpfSamples\Training\FirstSample\5.1DependencyInversion\bin\Debug\5.1DependencyInversion.exe.config
-D:\Workz\Projects\WpfSamples\Training\FirstSample\5.1DependencyInversion\obj\Debug\5.1DependencyInversion.csprojResolveAssemblyReference.cache
-D:\Workz\Projects\WpfSamples\Training\FirstSample\5.1DependencyInversion\bin\Debug\5.1DependencyInversion.exe
-D:\Workz\Projects\WpfSamples\Training\FirstSample\5.1DependencyInversion\bin\Debug\5.1DependencyInversion.pdb
-D:\Workz\Projects\WpfSamples\Training\FirstSample\5.1DependencyInversion\obj\Debug\5.1DependencyInversion.exe
-D:\Workz\Projects\WpfSamples\Training\FirstSample\5.1DependencyInversion\obj\Debug\5.1DependencyInversion.pdb
