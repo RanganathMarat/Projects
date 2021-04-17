@@ -1,4 +1,0 @@
-To get started with Orthanc do the following:
-1. Spin up docker image: docker-compose up
-2. Open http://localhost/orthanc/app/explorer.html and upload some data
-3. Adjust webade-configuration.json/ts as shown in the example

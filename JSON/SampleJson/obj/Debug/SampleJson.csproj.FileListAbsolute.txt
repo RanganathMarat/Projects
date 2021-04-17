@@ -8,3 +8,13 @@ C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csproj.CoreCompil
 C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csproj.CopyComplete
 C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.exe
 C:\~Office\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.pdb
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\bin\Debug\SampleJson.exe.config
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\bin\Debug\SampleJson.exe
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\bin\Debug\SampleJson.pdb
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csprojAssemblyReference.cache
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csproj.CoreCompileInputs.cache
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.csproj.CopyComplete
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.exe
+C:\Users\ing02494\OneDrive - Philips\Documents\Workz\Projects\JSON\SampleJson\obj\Debug\SampleJson.pdb

@@ -13,14 +13,21 @@ namespace SampleJson
     {
         static void Main(string[] args)
         {
+            //StructuredLogging();
+            SerializeToFile.SerializeToAFile();
+        }
+
+        static void StructuredLogging()
+        {
             JsonSerializer serializer = JsonSerializer.Create();
             NewStudyConstructionLog newStudyConstructionLog = new NewStudyConstructionLog()
-                {Status = StatusEnum.Success.ToString(), StudyId = Guid.NewGuid().ToString()};
+            { Status = StatusEnum.Success.ToString(), StudyId = Guid.NewGuid().ToString() };
 
-            string logString = typeof(NewStudyConstructionLog).ToString() + ":" + 
+            string logString = typeof(NewStudyConstructionLog).ToString() + ":" +
                                JsonConvert.SerializeObject(newStudyConstructionLog);
             Console.WriteLine(logString);
             LogStructuredMessage(newStudyConstructionLog);
+
         }
 
         static void LogStructuredMessage(object structuredLogObject)
